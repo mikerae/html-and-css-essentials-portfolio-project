@@ -20,3 +20,47 @@ h1, h2, h3, h4 {
 h1 {
     font-size: 4em;
 }
+
+/* Header, Nav Elements and Logo */
+
+#header {
+    width: 100%;
+    height: 10%;
+    background-color: #493A48;  /* temporary color */
+    position: fixed;
+    color:white; /* temporary color */
+}
+
+#header a {
+    color:inherit;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    font-size: 2em;
+    margin-left: 2%;
+}
+
+#menu {
+    letter-spacing: 2px;
+    color: inherit;
+}
+
+#nav-elements {
+    max-width: fit-content;
+    float: right;
+    line-height: 55px;
+    position: relative;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+    font-family: Mitr, sans-serif;
+    font-weight: 500;
+    float: right;
+}
+#header a:hover, #menu li:hover {
+    color: #000; /* temporary onhover colour for header elements */
+}
