@@ -79,7 +79,7 @@ h1 {
 }
 
  /* temporary  colour for call to action elements */
-.call-to-action a:hover {
+.call-to-action:hover {
     background-color: aqua;
     color: chocolate;
 }
