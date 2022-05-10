@@ -69,7 +69,6 @@ h1 {
 }
 #header a:hover, #menu li:hover {
     color: #000; /* temporary onhover colour for header elements */
-    font-size: larger;
 }
 
 /* Generic Section attributes */
@@ -81,12 +80,12 @@ h1 {
     height: 80%;
     background-color: bisque; /* tempoary background colour */
     position:relative;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .section-wrapper > h1 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     letter-spacing: 4px;
 }
 
@@ -97,7 +96,7 @@ h1 {
     height: 465px;
     position:inherit;
     margin-left:30%;
-    margin-top: 5%;
+    margin-top: 45px;
     overflow: hidden;
     border-radius: 20px;
 }
