@@ -79,7 +79,7 @@ h1 {
 }
 
  /* temporary  colour for call to action elements */
-.call-to-action:onhover {
+.call-to-action a:hover {
     background-color: aqua;
     color: chocolate;
 }
@@ -122,6 +122,12 @@ h1 {
     text-decoration: none;
     color: inherit;
     font-size: larger;
+}
+
+.enjoy-fire-items p {
+    font-family:Mitr, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
 }
 
 #enjoy-fire-items-left > div, #enjoy-fire-items-right > div {
