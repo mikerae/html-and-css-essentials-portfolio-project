@@ -87,8 +87,8 @@ h1 {
 .section-wrapper h1 {
     text-align: center;
     margin-top: 1%;
+    letter-spacing: 4px;
 }
-
 
 /* Position first section in index.html and response.html imediately below nav bar */
 
@@ -98,7 +98,15 @@ h1 {
 
 /* Enjoy Fire Section */
 
-#enjoy-fire {
-    
+#hero-image {
+    width:50%;
+    height:350px;
+    left:15%;
+    position: inherit;
 }
 
+#hero-image img {
+    width:90%;
+    height:90%;
+
+}
