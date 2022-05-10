@@ -94,11 +94,12 @@ h1 {
 
 #hero-image-wrapper {
     width: 40%;
-    height: 500px;
+    height: 465px;
     position:inherit;
     margin-left:30%;
     margin-top: 5%;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .hero-img {
