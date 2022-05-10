@@ -12,6 +12,11 @@ body {
     color: #161B29;
 }
 
+html, body {
+    height: 100%; /* alllows for sizing of sections relative to viewport */
+    position: relative; /* alllows for positioning of sections relative to viewport */
+}
+
 h1, h2, h3, h4 {
     font-family:Mitr, sans-serif;
     font-weight: 500;
@@ -71,12 +76,19 @@ h1 {
 
 .section-wrapper {
     z-index: -1;
+    padding-top:3%;
     width: 100%;
-    height: 110%;
+    height: 100%;
     background-color: bisque;
-   /*  position:relative;
-    top:20%; */
+   /*  position:relative; */
+    top: 10px;
 }
+
+.section-wrapper h1 {
+    text-align: center;
+    margin-top: 1%;
+}
+
 
 /* Position first section in index.html and response.html imediately below nav bar */
 
