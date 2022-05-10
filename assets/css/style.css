@@ -14,6 +14,7 @@ body {
 
 html, body {
     height: 100%; /* alllows for sizing of sections relative to viewport */
+    width: 100%;
     position: relative; /* alllows for positioning of sections relative to viewport */
 }
 
@@ -71,6 +72,18 @@ h1 {
     color: #000; /* temporary onhover colour for header elements */
 }
 
+/* temporary  colour for call to action elements */
+.call-to-action {
+    color: aqua;
+    background-color: chocolate; 
+}
+
+ /* temporary  colour for call to action elements */
+.call-to-action:onhover {
+    background-color: aqua;
+    color: chocolate;
+}
+
 /* Generic Section attributes */
 
 .section-wrapper {
@@ -89,20 +102,51 @@ h1 {
     letter-spacing: 4px;
 }
 
-/* Position first section in index.html and response.html imediately below nav bar */
+#enjoy-fire-content-wrapper {
+    width: inherit;
+    display:inline-flex;
+    margin-top: 20px;
+}
+
+#enjoy-fire-items-left, #enjoy-fire-items-right {
+    width: 29%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.enjoy-fire-items {
+    padding-top: 5%;
+    width:fit-content;
+}
+.enjoy-fire-items a {
+    text-decoration: none;
+    color: inherit;
+    font-size: larger;
+}
+
+#enjoy-fire-items-left > div, #enjoy-fire-items-right > div {
+    padding-top: 50px;
+}
+
+#enjoy-fire-items-left {
+    float: left;
+}
+
+#enjoy-fire-items-right {
+    float: right;
+}
 
 #hero-image-wrapper {
     width: 40%;
     height: 465px;
     position:inherit;
-    margin-left:30%;
-    margin-top: 45px;
     overflow: hidden;
     border-radius: 20px;
 }
 
-.hero-img {
+#hero-img {
     width: 120%;
+    height:120%;
     object-fit: cover;
-    object-position: -25px -100px;
+    object-position: -80px -90px;
 }
