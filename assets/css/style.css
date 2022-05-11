@@ -195,6 +195,10 @@ h1 {
     padding: 1em 1em 0 1em;
 }
 
+#lightfire-aside-inner a {
+    text-decoration: none;
+}
+
 #aside-fire-img-fig  {
     width: 100%;
     height: 200px;
