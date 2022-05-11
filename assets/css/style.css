@@ -22,6 +22,10 @@ h1, h2, h3, h4 {
     font-family:Mitr, sans-serif;
     font-weight: 500;
 }
+
+img {
+    background-color: #BD9792;
+}
  
 h1 {
     font-size: 4em;
@@ -32,9 +36,9 @@ h1 {
 #header {
     width: 100%;
     height: 50px;
-    background-color: #672c63;  /* temporary color */
+    background-color: #493A48;
     position: fixed;
-    color:white; /* temporary color */
+    color: #BD9792;
     z-index: 1;
 }
 
@@ -69,19 +73,19 @@ h1 {
     float: left;
 }
 #header a:hover, #menu li:hover {
-    color: #000; /* temporary onhover colour for header elements */
+    color:cornsilk;
 }
 
 /* temporary  colour for call to action elements */
 .call-to-action {
-    color: aqua;
-    background-color: chocolate; 
+    color: #BD9792;
+    background-color: #6D5058; 
 }
 
  /* temporary  colour for call to action elements */
 .call-to-action:hover {
-    background-color: aqua;
-    color: chocolate;
+    color: #6D5058;
+    background-color: #BD9792;
 }
 
 /* Generic Section attributes */
@@ -91,7 +95,6 @@ h1 {
     padding-top:3%;
     width: 100%;
     height: 80%;
-    background-color: bisque; /* tempoary background colour */
     position:relative;
     padding-top: 50px;
 }
