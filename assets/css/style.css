@@ -76,13 +76,13 @@ h1 {
     color:cornsilk;
 }
 
-/* temporary  colour for call to action elements */
+/* colour for call to action elements */
+
 .call-to-action {
     color: #BD9792;
     background-color: #6D5058; 
 }
 
- /* temporary  colour for call to action elements */
 .call-to-action:hover {
     color: #6D5058;
     background-color: #BD9792;
@@ -173,9 +173,10 @@ h1 {
 #lightfire-aside {
     width: 16.66%;
     height: 600px;
-    float:left;
-    position:sticky;
     margin-left: 30px;
+    top: 20%;
+    position: sticky;
+    float:left;
 }
 
 #lightfire-aside h2 {
