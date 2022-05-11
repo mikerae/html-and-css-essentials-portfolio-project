@@ -225,3 +225,8 @@ h1 {
     margin-right: 20px;
     columns: 3 auto;
 }
+
+#lightfire-article section {
+    padding: 1rem 0;
+    border-bottom: #161B29 solid 2px;
+}
