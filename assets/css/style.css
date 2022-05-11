@@ -105,6 +105,8 @@ h1 {
     letter-spacing: 4px;
 }
 
+/* Enjoy Fire Section */
+
 #enjoy-fire-content-wrapper {
     width: inherit;
     display:inline-flex;
@@ -158,4 +160,56 @@ h1 {
     height:120%;
     object-fit: cover;
     object-position: -80px -90px;
+}
+
+/* Light a Fire Section */
+
+#lightfire {
+    height: fit-content;
+}
+
+/* Lightfire-aside */
+
+#lightfire-aside {
+    width: 16.66%;
+    height: 600px;
+    float:left;
+    position:sticky;
+    margin-left: 30px;
+}
+
+#lightfire-aside h2 {
+    text-align: center;
+}
+
+#lightfire-aside-inner {
+    width: 100%;
+    display:block;
+}
+
+#lightfire-aside-inner li {
+    list-style: none;
+    font-family:Mitr, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 1em 1em 0 1em;
+}
+
+#aside-fire-img-fig  {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#aside-fire-img-fig > img {
+    object-fit: fit;
+    width:100%;
+}
+
+/* lightfire-article */
+
+#lightfire-article {
+    width: 83.34%;
+    height: fit-content;
+    margin-left: 350px;
 }
