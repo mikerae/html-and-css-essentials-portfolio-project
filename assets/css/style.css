@@ -179,6 +179,7 @@ h1 {
 .lightfire-img {
     object-fit: fit;
     width:100%;
+    border-radius: 0;
 }
 
 /* Lightfire-aside */
@@ -258,9 +259,14 @@ h1 {
     margin: 0 2%;
 }
 
-img.tools {
+figure.tools {
     width: 80%;
-    height: 300px;
-    object-fit: fit;
+}
+
+img.tools {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 20%;
+    border:#161B29 solid 2px;
 }
 
