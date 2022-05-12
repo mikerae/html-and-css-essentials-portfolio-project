@@ -287,3 +287,26 @@ button.tools {
     font-size: large;
 }
 
+/* Responsible Fre Lighing Section */
+
+#responsible-wrapper {
+    width: 100%;
+    height: 80%;
+    margin-top:50px;
+    display: inline-flex;
+}
+
+#responsible-content-left {
+    height: 200px;
+    width: 100px;
+}
+
+#responsible-content-right {
+    height: 200px;
+    width: 100px;
+}
+
+#responsible-img {
+    object-fit: fit;
+    width: 30%;
+}
