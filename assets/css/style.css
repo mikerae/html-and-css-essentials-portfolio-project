@@ -240,3 +240,28 @@ h1 {
     padding: 1em 1em;
     border-bottom: #161B29 solid 2px;
 }
+
+/* Tools for fire Lighing Section */
+
+.tools-wrapper-outer {
+    position:relative;
+    width: 100%;
+    height: 30%;
+    display: inline-flex;
+}
+
+.tools-wrapper-inner {
+    position: relative;
+    width: 25%;
+}
+
+figure.tools {
+
+}
+
+img.tools {
+    width: 80%;
+    height: 300px;
+    object-fit: fit;
+}
+
