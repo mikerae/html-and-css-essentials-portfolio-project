@@ -250,23 +250,41 @@ h1 {
     height: 30%;
     display: inline-flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .tools-wrapper-inner {
     position: relative;
     width: 25%;
     margin: 0 2%;
+    justify-content: center;
+    text-align: center;
 }
 
 figure.tools {
-    width: 80%;
+    width: 100%;
+    text-align: center;
 }
 
 img.tools {
-    width: 100%;
+    width: 80%;
     object-fit: contain;
     border-radius: 20%;
     border:#161B29 solid 2px;
+}
+
+h2.tools {
+    /* text-align: center; */
+    margin-top: 10px;
+}
+
+p.tools {
+    margin-top:10px;
+}
+
+button.tools {
+    padding: 1em;
+    margin-top: 10px;
+    font-size: large;
 }
 
