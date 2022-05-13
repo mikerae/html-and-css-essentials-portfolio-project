@@ -324,7 +324,7 @@ p.tools {
     height:100%;
     object-fit: cover;
     object-position: 0 -450px;
-
+    border-top-left-radius: 60%;
 }
 
 #memories {
