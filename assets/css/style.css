@@ -31,6 +31,13 @@ h1 {
     font-size: 4em;
 }
 
+button {
+    padding: 1em;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
 /* Header, Nav Elements and Logo */
 
 #header {
@@ -281,12 +288,6 @@ p.tools {
     margin-top:10px;
 }
 
-button.tools {
-    padding: 1em;
-    margin-top: 10px;
-    font-size: large;
-}
-
 /* Responsible Fre Lighing Section */
 
 #responsible-wrapper {
@@ -298,6 +299,11 @@ button.tools {
 #responsible-content-left {
     width: 50%;
     display:block;
+}
+
+.responsible-info {
+    padding-left: 20%;
+    padding-top: 5%;
 }
 
 #responsible-content-right {
