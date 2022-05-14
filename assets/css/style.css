@@ -399,3 +399,7 @@ p.tools {
 position: absolute;
 bottom: 0px;
 }
+
+#left-content {
+    padding: 180px 0 0 300px;
+}
