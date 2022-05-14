@@ -323,8 +323,8 @@
         <h1>Responsible Fire Lighting</h1>
 
      <div class="section-content-outer-wrapper">
-          <div id="responsible-content-left">
-               <div class="responsible-info">
+          <div class="section-content-left" id="responsible-content-left">
+               <div class="items-group">
                     <h2>The Country Code</h2>
                     <p>Here is a summery of the UK Countryside code. This advice, when followed, will serve to protect our countryside and promote our enjoyment of it.</p>
                     <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjB-fLTkar3AhXzQUEAHbOfDYoQFnoECAoQAQ&url=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fgovernment%2Fuploads%2Fsystem%2Fuploads%2Fattachment_data%2Ffile%2F1052574%2FCountryside_Code_A5.pdf&usg=AOvVaw2sW2vn5hh0QyZ0f99t-CNX" target="_blank" rel="noopener"
@@ -334,7 +334,7 @@
                          </button>
                      </a>
                </div>
-               <div class="responsible-info">
+               <div class="items-group">
                     <h2>Fire Lighting and UK Law</h2>
                     <p>The law varies around the UK regarding fire lighting.  In Scotland, under certain conditions, wild camp fires are permitted, whilst in England, wild camp fires are generally forbidden. Local bye-laws may apply. Here you can research the relevant legislation.</p>
                     <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjB-fLTkar3AhXzQUEAHbOfDYoQFnoECBIQAQ&url=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fpublications%2Fthe-countryside-code&usg=AOvVaw1jz1E_ak8HCMTbVmLuRKzh" target="_blank" rel="noopener"
@@ -344,7 +344,7 @@
                          </button>
                     </a>
                </div>
-               <div class="responsible-info">
+               <div class="items-group">
                     <h2>Ray Mears Essential Bushcraft</h2>
                     <p>Ray Mears’ popular book on Bushcraft is an excellent resource for developing an understanding responsible enjoyment of the countryside.</p>
                     <a href="https://www.raymears.com/Bushcraft_Product/164-Ray-Mears-Essential-Bushcraft-Signed-Copy/" target="_blank" rel="noopener"
@@ -376,15 +376,15 @@
      <h1>Stay In Touch</h1>
      <div class="section-content-outer-wrapper" id="stayintouch-content-outer-wrapper">
           <!-- Stay in touch form wrapper -->
-          <div id="form-outer">
+          <div id="form-outer" class="section-content-left">
                <h2>Tell us about your Bushcraft Interests</h2>
                <!-- 
                     This is a dummy form: 
                     form attribute "method" is ommited: a method of "post" would send data to a server;
                     form attribute "action" directs the user to respose.html to simulate interaction with a server.
                -->
-               <form action="response.html"  class="form-example">
-                    <fieldset>
+               <form action="response.html"  id="form">
+                    <fieldset class="items-group" id="my-details">
                          <legend>
                               My detais:
                          </legend>
@@ -396,13 +396,12 @@
                               <label for="last-name">Last Name</label>
                               <input id="last-name" type="text" name="lname" placeholder="Last Name" required>
                          </div>
-                         <br>
                          <div>
                               <label for="email">Email</label>
                               <input id="email" type="email" name="email" placeholder="Email" required>
                          </div>
                     </fieldset>
-                    <fieldset id="interests">
+                    <fieldset class="items-group" id="interests">
                          <legend>
                               I am interested in:
                          </legend>
@@ -423,11 +422,11 @@
                               <label for="water-purification">Water Purification</label>
                          </div>
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="items-group" id="tell-me">
                          <legend>
                               Tell me about...
                          </legend>
-                         <div>
+                         <div >
                               <input id="meetups" type="checkbox" name="meetups" >
                               <label for="meetups">I would like to know about your upcoming meet-ups</label>
                          </div>
@@ -436,8 +435,8 @@
                               <label for="newsletter">I would like to recieve your monthly News Letter</label>
                          </div>
                     </fieldset>
-                    <div id="submit">
-                         <input type="submit" value="Stay In Touch!">
+                    <div>
+                         <input class="items-group button call-to-action" id="submit" type="submit" value="Stay In Touch!">
                     </div>
                </form>
           </div>
@@ -453,7 +452,7 @@
 
      <!-- footer copied from Love Running Project: Code Institute and modified slightly-->
 
-     <footer class="bar">
+     <footer id="footer" class="bar">
           <ul id="social-networks">
                <li>
                     <a href="https://facebook.com" target="_blank" rel="noopener"
