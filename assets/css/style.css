@@ -384,3 +384,18 @@ p.tools {
     text-decoration: none;
     font-size: 30px;
 }
+
+/* Response Page */
+
+#response {
+    height: 100%
+}
+
+#response-content-outer-wrapper {
+    margin-top: 5%;
+}
+
+#footer-response {
+position: absolute;
+bottom: 0px;
+}
