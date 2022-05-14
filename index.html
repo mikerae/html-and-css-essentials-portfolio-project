@@ -42,7 +42,7 @@
 
    <section id="enjoy-fire" class="section-wrapper">
           <h1>Enjoy Fire!</h1>
-          <div id="enjoy-fire-content-wrapper">
+          <div class="section-content-outer-wrapper" id="enjoy-fire-content-wrapper">
                <div id="enjoy-fire-items-left">
                     <!-- These divs signpost a progressive reveal of Enjoy Fire! contents and allow for indevidal positioning-->
                     <!-- On Hover Popups not yet implemented: use links instead in this version release -->
@@ -322,7 +322,7 @@
    <section id="responsible-fire-lighting" class="section-wrapper">
         <h1>Responsible Fire Lighting</h1>
 
-     <div id="responsible-wrapper">
+     <div class="section-content-outer-wrapper">
           <div id="responsible-content-left">
                <div class="responsible-info">
                     <h2>The Country Code</h2>
@@ -373,81 +373,82 @@
     <!-- Stay In Touch section-->
 
    <section id="stay-in-touch" class="section-wrapper">
-        <h1>Stay In Touch</h1>
-        <!-- Stay in touch form wrapper -->
-        <div id="form-outer">
-          <h2>Tell us about your Bushcraft Interests</h2>
-
-          <!-- 
-               This is a dummy form: 
-               form attribute "method" is ommited: a method of "post" would send data to a server;
-               form attribute "action" directs the user to respose.html to simulate interaction with a server.
-          -->
-          <form action="response.html"  class="form-example">
-               <fieldset>
-                    <legend>
-                         My detais:
-                    </legend>
-                    <div>
-                         <label for="first-name">First Name</label>
-                         <input id="first-name" type="text" name="fname" placeholder="First Name" required>
+     <h1>Stay In Touch</h1>
+     <div class="section-content-outer-wrapper">
+          <!-- Stay in touch form wrapper -->
+          <div id="form-outer">
+               <h2>Tell us about your Bushcraft Interests</h2>
+               <!-- 
+                    This is a dummy form: 
+                    form attribute "method" is ommited: a method of "post" would send data to a server;
+                    form attribute "action" directs the user to respose.html to simulate interaction with a server.
+               -->
+               <form action="response.html"  class="form-example">
+                    <fieldset>
+                         <legend>
+                              My detais:
+                         </legend>
+                         <div>
+                              <label for="first-name">First Name</label>
+                              <input id="first-name" type="text" name="fname" placeholder="First Name" required>
+                         </div>
+                         <div>
+                              <label for="last-name">Last Name</label>
+                              <input id="last-name" type="text" name="lname" placeholder="Last Name" required>
+                         </div>
+                         <br>
+                         <div>
+                              <label for="email">Email</label>
+                              <input id="email" type="email" name="email" placeholder="Email" required>
+                         </div>
+                    </fieldset>
+                    <fieldset id="interests">
+                         <legend>
+                              I am interested in:
+                         </legend>
+                         <div>
+                              <input id="shelter" type="checkbox" name="shelter" >
+                              <label for="shelter">Shelter</label>
+                         </div>
+                         <div>
+                              <input id="fire" type="checkbox" name="fire" >
+                              <label for="fire">Fire</label>
+                         </div>
+                         <div>
+                              <input id="food" type="checkbox" name="food" >
+                              <label for="food">Food</label>
+                         </div>
+                         <div>
+                              <input id="water-purification" type="checkbox" name="water-purification" >
+                              <label for="water-purification">Water Purification</label>
+                         </div>
+                    </fieldset>
+                    <fieldset>
+                         <legend>
+                              Tell me about...
+                         </legend>
+                         <div>
+                              <input id="meetups" type="checkbox" name="meetups" >
+                              <label for="meetups">I would like to know about your upcoming meet-ups</label>
+                         </div>
+                         <div>
+                              <input id="newsletter" type="checkbox" name="newsletter" >
+                              <label for="newsletter">I would like to recieve your monthly News Letter</label>
+                         </div>
+                    </fieldset>
+                    <div id="submit">
+                         <input type="submit" value="Stay In Touch!">
                     </div>
-                    <div>
-                         <label for="last-name">Last Name</label>
-                         <input id="last-name" type="text" name="lname" placeholder="Last Name" required>
-                    </div>
-                    <br>
-                    <div>
-                         <label for="email">Email</label>
-                         <input id="email" type="email" name="email" placeholder="Email" required>
-                    </div>
-               </fieldset>
-               <fieldset id="interests">
-                    <legend>
-                         I am interested in:
-                    </legend>
-                    <div>
-                         <input id="shelter" type="checkbox" name="shelter" >
-                         <label for="shelter">Shelter</label>
-                    </div>
-                    <div>
-                         <input id="fire" type="checkbox" name="fire" >
-                         <label for="fire">Fire</label>
-                    </div>
-                    <div>
-                         <input id="food" type="checkbox" name="food" >
-                         <label for="food">Food</label>
-                    </div>
-                    <div>
-                         <input id="water-purification" type="checkbox" name="water-purification" >
-                         <label for="water-purification">Water Purification</label>
-                    </div>
-               </fieldset>
-               <fieldset>
-                    <legend>
-                         Tell me about...
-                    </legend>
-                    <div>
-                         <input id="meetups" type="checkbox" name="meetups" >
-                         <label for="meetups">I would like to know about your upcoming meet-ups</label>
-                    </div>
-                    <div>
-                         <input id="newsletter" type="checkbox" name="newsletter" >
-                         <label for="newsletter">I would like to recieve your monthly News Letter</label>
-                    </div>
-               </fieldset>
-               <div id="submit">
-                    <input type="submit" value="Stay In Touch!">
-               </div>
-          </form>
-        </div>
-        <!-- Stay in touch image -->
-        <div id="stay-in-touch-img-wrapper">
-               <figure>
-                    <img id="stay-in-touch-img" src="assets/images/stay-in-touch.jpg" alt="Friends heating up marshmallows round a fire">
-                    <figcaption>Friends heating up marshmallows round a fire.[photo:pexels Ivan Samkov 9630140]</figcaption>
-               </figure>
+               </form>
           </div>
+          <!-- Stay in touch image -->
+          <div id="stay-in-touch-img-wrapper">
+                    <figure>
+                         <img id="stay-in-touch-img" src="assets/images/stay-in-touch.jpg" alt="Friends heating up marshmallows round a fire">
+                         <figcaption>Friends heating up marshmallows round a fire.[photo:pexels Ivan Samkov 9630140]</figcaption>
+                    </figure>
+               </div>
+     </div>
    </section>
 
      <!-- footer copied from Love Running Project: Code Institute and modified slightly-->

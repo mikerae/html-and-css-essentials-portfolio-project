@@ -42,11 +42,12 @@ button {
 
 #header {
     width: 100%;
-    height: 50px;
+    /*height: 50px;*/
+    height:fit-content;
     background-color: #493A48;
     position: fixed;
     color: #BD9792;
-    z-index: 1;
+    z-index: 2;
 }
 
 #header a {
@@ -67,8 +68,8 @@ button {
 
 #nav-elements {
     max-width: fit-content;
-    float: right;
     line-height: 55px;
+    float: right;
     position: relative;
 }
 
@@ -106,6 +107,12 @@ button {
     padding-top: 50px;
 }
 
+.section-content-outer-wrapper {
+    width: 100%;
+    height: 92%;
+    display: flex;
+}
+
 .section-wrapper > h1 {
     text-align: center;
     margin-top: 20px;
@@ -115,9 +122,7 @@ button {
 /* Enjoy Fire Section */
 
 #enjoy-fire-content-wrapper {
-    width: inherit;
-    display:inline-flex;
-    margin-top: 20px;
+    margin-top: 5%;
 }
 
 #enjoy-fire-items-left, #enjoy-fire-items-right {
@@ -290,11 +295,11 @@ p.tools {
 
 /* Responsible Fre Lighing Section */
 
-#responsible-wrapper {
+/* #responsible-wrapper {
     width: 100%;
     height: 92%;
     display: flex;
-}
+} */
 
 #responsible-content-left {
     width: 50%;
@@ -339,3 +344,6 @@ p.tools {
     padding: 5px;
     font-size: 30px;
 }
+
+/* Stay In Touch Section */
+
