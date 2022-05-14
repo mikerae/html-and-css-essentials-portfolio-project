@@ -46,7 +46,6 @@ button {
     height:fit-content;
     background-color: #493A48;
     color: #BD9792;
-
 }
 
 #header{
@@ -350,7 +349,7 @@ p.tools {
 /* Stay In Touch Section */
 
 #stay-in-touch {
-    height: 100%;
+    height: 90%;
 }
 
 #stayintouch-content-outer-wrapper {
@@ -360,6 +359,19 @@ p.tools {
 
 /* Footer */
 
-#social-netwoks {
+#social-networks {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 
+#social-networks li {
+    display: inline;
+    padding: 5px 10%;
+}
+
+#social-networks a {
+    color:inherit;
+    text-decoration: none;
+    font-size: 30px;
 }
