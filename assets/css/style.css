@@ -318,14 +318,6 @@ p.tools {
     margin-top:10px;
 }
 
-/* Responsible Fre Lighing Section */
-
-/* #responsible-wrapper {
-    width: 100%;
-    height: 92%;
-    display: flex;
-} */
-
 #responsible-content-left {
     width: 50%;
     display:flexbox;
@@ -365,11 +357,9 @@ p.tools {
     height: 75%;
 }
 
-#stay-in-touch-img {
-}
 
 /* Footer */
 
-.social-networks {
+#social-netwoks {
 
 }
