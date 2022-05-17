@@ -13,9 +13,9 @@ body {
 }
 
 html, body {
-    height: 100%; /* alllows for sizing of sections relative to viewport */
+    height: 100%; /* allows for sizing of sections relative to viewport */
     width: 100%;
-    position: relative; /* alllows for positioning of sections relative to viewport */
+    position: relative; /* allows for positioning of sections relative to viewport */
 }
 
 h1, h2, h3, h4 {
@@ -328,8 +328,12 @@ p.tools {
 
 /* Responisble Fire Lighting Section */
 
+#responsible-fire-lighting {
+
+}
+
 #responsible-img {
-    object-position: 0 -450px;
+    object-position: 0 75%;
 }
 
 #memories {
