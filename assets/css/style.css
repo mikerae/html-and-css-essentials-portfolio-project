@@ -34,14 +34,14 @@ h1 {
 button, #submit {
     padding: 1em;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 1.5em;
     border-radius: 50%;
 }
 
 /* Header, Nav Elements and Logo */
 
 .bar {
-    width: 100%;
+    width: 100vw;
     height:fit-content;
     background-color: #493A48;
     color: #BD9792;
@@ -60,24 +60,24 @@ button, #submit {
 #logo {
     float: left;
     font-size: 2em;
-    margin-left: 2%;
+    margin-left: 1.5rem;
 }
 
 #menu {
-    letter-spacing: 2px;
+    letter-spacing: 0.1rem;
     color: inherit;
 }
 
 #nav-elements {
     max-width: fit-content;
-    line-height: 55px;
+    line-height: 3rem;
     float: right;
     position: relative;
 }
 
 #menu li {
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 3rem;
     font-family: Mitr, sans-serif;
     font-weight: 500;
     float: left;
@@ -386,7 +386,7 @@ p.tools {
 #social-networks a {
     color:inherit;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 2em;
 }
 
 /* Response Page */
