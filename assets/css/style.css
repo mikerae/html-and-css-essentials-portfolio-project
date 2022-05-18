@@ -102,10 +102,10 @@ button, #submit {
 
 .section-wrapper {
     z-index: 0;
-    width: 100%;
-    height: 80%;
+    width: 100vw;
+    height: 80vh;
     position:relative;
-    padding-top: 50px;
+    padding-top: 3rem;
 }
 
 .section-content-outer-wrapper {
