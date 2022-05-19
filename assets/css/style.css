@@ -319,7 +319,7 @@ button, #submit {
 
 /* 
 Lightfire aside Contents link position offset adjusting for header.
-Solution from Hrvije Miljak/ Stck Overflow/ see Readme.md
+Solution from Hrvoje Miljak/ Stack Overflow/ see Readme.md
 */
 
 h3.header-offset {
@@ -391,7 +391,7 @@ p.tools {
 /* Stay In Touch Section */
 
 #stay-in-touch {
-    height: 90%;
+    height: 95%;
 }
 
 #stayintouch-content-outer-wrapper {
@@ -416,21 +416,26 @@ p.tools {
 
 /* Footer */
 
-#social-networks {
+.footer {
+    position: fixed;
+    bottom: 0px;
+}
+
+.social-networks {
     display: flex;
     justify-content: center;
     justify-items: center;
 }
 
-#social-networks li {
+.social-networks li {
     display: inline;
-    padding: .5em 8em;
+    padding: .5vw 8vw;
 }
 
-#social-networks a {
+.social-networks a {
     color:inherit;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2vw;
 }
 
 /* Response Page */
@@ -444,12 +449,6 @@ p.tools {
     position: absolute;
 }
 
-#footer-response {
-position: absolute;
-bottom: 0px;
-}
-
 #left-content {
-    /*padding: 180px 0 0 300px;*/
     justify-items: center;
 }
