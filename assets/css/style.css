@@ -13,8 +13,8 @@ body {
 }
 
 html, body {
-    height: 100%; /* allows for sizing of sections relative to viewport */
-    width: 100%;
+    height: 100%vh; /* allows for sizing of sections relative to viewport */
+    width: 100vw;
     position: relative; /* allows for positioning of sections relative to viewport */
 }
 
@@ -28,14 +28,30 @@ img {
 }
  
 h1 {
-    font-size: 4em;
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 1.5vw;
+}
+
+h3 {
+    font-size: 1.2vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+figcaption {
+    font-size: 0.8vw;
 }
 
 button, #submit {
-    padding: 1em;
-    margin-top: 10px;
-    font-size: 1.5em;
-    border-radius: 50%;
+    padding: 1vw;
+    margin-top: 1vw;
+    font-size: 1vw;
+    border-radius: 1vw;
 }
 
 /* Header, Nav Elements and Logo */
@@ -59,7 +75,7 @@ button, #submit {
 
 #logo {
     float: left;
-    font-size: 2em;
+    font-size: 2vw;
     margin-left: 1.5rem;
 }
 
