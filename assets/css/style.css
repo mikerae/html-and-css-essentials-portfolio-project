@@ -13,7 +13,7 @@ body {
 }
 
 html, body {
-    height: 100%vh; /* allows for sizing of sections relative to viewport */
+    height: 100vh; /* allows for sizing of sections relative to viewport */
     width: 100vw;
     position: relative; /* allows for positioning of sections relative to viewport */
 }
@@ -80,22 +80,23 @@ button, #submit {
 }
 
 #menu {
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.1vw;
     color: inherit;
 }
 
 #nav-elements {
     max-width: fit-content;
-    line-height: 3rem;
+    line-height: 3vw;
     float: right;
     position: relative;
 }
 
 #menu li {
     list-style-type: none;
-    margin-right: 3rem;
+    margin-right: 3vw;
     font-family: Mitr, sans-serif;
     font-weight: 500;
+    font-size: 1vw;
     float: left;
 }
 #header a:hover, #menu li:hover, #social-networks a:hover {
@@ -106,7 +107,10 @@ button, #submit {
 
 .call-to-action {
     color: #BD9792;
-    background-color: #6D5058; 
+    background-color: #6D5058;
+    width:fit-content;
+    border-radius: 2vw;
+    padding: 0 1vw;
 }
 
 .call-to-action:hover {
@@ -121,7 +125,7 @@ button, #submit {
     width: 100vw;
     height: 80vh;
     position:relative;
-    padding-top: 3rem;
+    padding-top: 3vw;
 }
 
 .section-content-outer-wrapper {
@@ -134,12 +138,12 @@ button, #submit {
 .section-content-left {
     width: 50%;
     display:flexbox;
-    justify-content: left;
+    justify-content: center;
     padding:2% 10%;
 }
 
 .items-group {
-    padding:20px;
+    padding: 1vw;
 }
 
 .section-content-right {
@@ -164,8 +168,8 @@ button, #submit {
 
 .section-wrapper > h1 {
     text-align: center;
-    margin-top: 20px;
-    letter-spacing: 4px;
+    margin-top: 1vh;
+    letter-spacing: 0.2vw;
 }
 
 .text-right {
@@ -178,26 +182,32 @@ button, #submit {
     margin-top: 5%;
 }
 
-#enjoy-fire-items-left, #enjoy-fire-items-right {
+#enjoy-fire-items-left {
     width: 29%;
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 5vw;
+}
+
+#enjoy-fire-items-right {
+    width: 29%;
+    padding-right: 7%;
+    padding-left: 3.5%;
+    padding-top: 5vw;
 }
 
 .enjoy-fire-items {
-    padding-top: 5%;
+    padding-top: 5vw;
     width:fit-content;
 }
 .enjoy-fire-items a {
     text-decoration: none;
     color: inherit;
-    font-size: larger;
 }
 
 .enjoy-fire-items p {
     font-family:Mitr, sans-serif;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 1vw;
 }
 
 #enjoy-fire-items-left > div, #enjoy-fire-items-right > div {
@@ -213,18 +223,18 @@ button, #submit {
 }
 
 #hero-image-wrapper {
-    width: 40%;
-    height: 465px;
-    position:inherit;
+    width: 40vw;
+    height: 30vw;
+    position:relative;
     overflow: hidden;
     border-radius: 20px;
 }
 
 #hero-img {
-    width: 120%;
-    height:120%;
-    object-fit: cover;
-    object-position: -80px -90px;
+    width: 60vw;
+    /*height:100vh;*/
+    object-fit: fill;
+    object-position: -8vw -10vw;
 }
 
 /* Light a Fire Section */
