@@ -297,8 +297,8 @@ button, #submit {
 #lightfire-article {
     width: 80%;
     height: fit-content;
-    margin-left: 350px;
-    margin-right: 20px;
+    margin-left: 3vw;
+    margin-right: 2vw;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -315,6 +315,20 @@ button, #submit {
 #lightfire-article section {
     padding: 1em 1em;
     border-bottom: #161B29 solid 2px;
+}
+
+/* 
+Lightfire aside Contents link position offset adjusting for header.
+Solution from Hrvije Miljak/ Stck Overflow/ see Readme.md
+*/
+
+h3.header-offset {
+    position: relative;
+}
+
+h3.header-offset span {
+    position:absolute;
+    top: -6vh;
 }
 
 /* Tools for fire Lighing Section */
