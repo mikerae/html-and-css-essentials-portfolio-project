@@ -152,6 +152,10 @@ button, #submit {
     letter-spacing: 4px;
 }
 
+.text-right {
+    text-align: right;
+}
+
 /* Enjoy Fire Section */
 
 #enjoy-fire-content-wrapper {
@@ -328,10 +332,6 @@ p.tools {
 
 /* Responisble Fire Lighting Section */
 
-#responsible-fire-lighting {
-
-}
-
 #responsible-img {
     object-position: 0 75%;
 }
@@ -366,6 +366,10 @@ p.tools {
     margin-top: 10px;
 }
 
+#form input {
+    border:#161B29 solid 1px;
+}
+
 .input-background-colour:hover {
     background-color: #BD9792;
 }
@@ -380,7 +384,7 @@ p.tools {
 
 #social-networks li {
     display: inline;
-    padding: 0.5em 8em;
+    padding: .5em 8em;
 }
 
 #social-networks a {
@@ -392,7 +396,7 @@ p.tools {
 /* Response Page */
 
 #response {
-    height: 100%
+    height: 100%;
 }
 
 #response-content-outer-wrapper {
