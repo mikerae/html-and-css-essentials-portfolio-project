@@ -99,7 +99,7 @@ button, #submit {
     font-size: 1vw;
     float: left;
 }
-#header a:hover, #menu li:hover, #social-networks a:hover {
+#header a:hover, #menu li:hover, .social-networks a:hover {
     color:cornsilk;
 }
 
@@ -385,17 +385,17 @@ p.tools {
 #memories h2 {
     color:#BD9792;
     padding: 1%;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
 }
 
 /* Stay In Touch Section */
 
 #stay-in-touch {
-    height: 95%;
+    height: 88%;
 }
 
 #stayintouch-content-outer-wrapper {
-    height: 75%;
+    height: 80%;
 }
 
 /* Form */
@@ -416,8 +416,13 @@ p.tools {
 
 /* Footer */
 
-.footer {
-    position: fixed;
+#footer {
+    position: relative;
+    bottom: 0px;
+}
+
+#footer-response {
+    position: absolute;
     bottom: 0px;
 }
 
@@ -450,5 +455,11 @@ p.tools {
 }
 
 #left-content {
-    justify-items: center;
+    padding-top: 11vw;
+    padding-left: 15vw;
+    padding-right: 0%;
+}
+
+#left-content * {
+    width: fit-content;
 }
