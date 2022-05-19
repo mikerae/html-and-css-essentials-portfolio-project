@@ -396,11 +396,12 @@ p.tools {
 /* Response Page */
 
 #response {
-    height: 100%;
+    height: 100vh;
 }
 
 #response-content-outer-wrapper {
     margin-top: 5%;
+    position: absolute;
 }
 
 #footer-response {
@@ -409,5 +410,6 @@ bottom: 0px;
 }
 
 #left-content {
-    padding: 180px 0 0 300px;
+    /*padding: 180px 0 0 300px;*/
+    justify-items: center;
 }
