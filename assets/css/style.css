@@ -232,7 +232,6 @@ button, #submit {
 
 #hero-img {
     width: 60vw;
-    /*height:100vh;*/
     object-fit: fill;
     object-position: -8vw -10vw;
 }
