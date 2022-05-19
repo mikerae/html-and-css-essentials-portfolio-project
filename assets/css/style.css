@@ -261,10 +261,11 @@ button, #submit {
 #lightfire-aside {
     width: 16.66%;
     height: 600px;
-    margin-left: 30px;
+    margin-left: 2vw;
     top: 20%;
     position: sticky;
     float:left;
+    overflow: hidden;
 }
 
 #lightfire-aside h2 {
@@ -279,8 +280,8 @@ button, #submit {
     list-style: none;
     font-family:Mitr, sans-serif;
     font-weight: 500;
-    font-size: 1em;
-    padding: 1em 1em 0 0;
+    font-size: 0.9vw;
+    padding: 0.1vw 0.5vw 0 0;
 }
 
 #lightfire-aside-inner a {
