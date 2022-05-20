@@ -79,7 +79,7 @@ button, #submit {
     margin-left: 1.5rem;
 }
 
-#menu-main {
+#main-menu {
     letter-spacing: 0.1vw;
     color: inherit;
 }
@@ -91,7 +91,7 @@ button, #submit {
     position: relative;
 }
 
-#menu-main li {
+#main-menu li {
     list-style-type: none;
     margin-right: 3vw;
     font-family: Mitr, sans-serif;
@@ -99,7 +99,7 @@ button, #submit {
     font-size: 1vw;
     float: left;
 }
-#header a:hover, #menu-main li:hover, .social-networks a:hover {
+#header a:hover, #main-menu li:hover, .social-networks a:hover {
     color:cornsilk;
 }
 
@@ -464,23 +464,7 @@ p.tools {
     width: fit-content;
 }
 
-/* 
-Hamburger-Menu::
-Code for the hamburger menu is copied extinsively from-
- "How To Make a Responsive Hamburger Menu [CSS]
-by Warren Davies
-Jan 12, 2022"
-
-https://alvarotrigo.com/blog/hamburger-menu-css-responsive/
-
-and modified for this application. See Readme.md
-*/
-
-
-/* 
-Media Queries:
-Generic code and comments from w3schools.com
-*/
+/* Media Queries Generic code and comments from w3schools.com */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
