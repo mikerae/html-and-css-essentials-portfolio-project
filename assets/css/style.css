@@ -473,10 +473,18 @@ p.tools {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+    /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
+    .navbar input[type="checkbox"], .navbar .hamburger-lines {
+        display: none;
+        }
+    /* end of copied code*/
 }
 
 /* Large devices (laptops, desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
+    .navbar input[type="checkbox"], .navbar .hamburger-lines {
+        display: none;
+        }
+    /* end of copied code*/
 }
