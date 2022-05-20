@@ -463,3 +463,23 @@ p.tools {
 #left-content * {
     width: fit-content;
 }
+
+/* 
+Media Queries:
+Generic code and comments from w3schools.com
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Large devices (laptops, desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
