@@ -76,7 +76,6 @@ button, #submit {
 }
 
 .logo {
-    /*float: left;*/
     font-size: 2em;
     margin-left: 1.5rem;
     order: 1;
@@ -102,7 +101,7 @@ button, #submit {
   }
   /* end of copied and modified code */
 
-#main-menu li {
+.main-menu-items li {
     list-style-type: none;
     margin-right: 3vw;
     font-family: Mitr, sans-serif;
@@ -480,12 +479,11 @@ p.tools {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR  and modified see Readme.md*/
-    .bar {
+    .navbar {
         opacity: 0.95;
     }
     
-    .navbar-container input[type="checkbox"],
-    .navbar-container .hamburger-lines {
+    .navbar-container input[type="checkbox"], .navbar-container .hamburger-lines {
         display: block;
     }
     
@@ -524,7 +522,7 @@ p.tools {
         height: 4px;
         width: 100%;
         border-radius: 10px;
-        background: #333;
+        background: #BD9792;
     }
     
     .navbar-container .hamburger-lines .line1 {
@@ -541,10 +539,10 @@ p.tools {
         transition: transform 0.4s ease-in-out;
     }
     
-    .bar .main-menu-items {
+    .navbar .main-menu-items {
         padding-top: 100px;
-        background: #fff;
-        height: 100vh;
+        background: #493A48;
+        height: fit-content;
         max-width: 300px;
         transform: translate(-150%);
         display: flex;
@@ -555,17 +553,16 @@ p.tools {
         box-shadow: 5px 0px 10px 0px #aaa;
     }
     
-    .bar .main-menu-items li {
+    .navbar .main-menu-items li {
         margin-bottom: 1.5rem;
-        font-size: 1.3rem;
-        font-weight: 500;
+        font-size: 1.5rem;
     }
     
     .logo {
         position: absolute;
         top: 5px;
         right: 15px;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .navbar-container input[type="checkbox"]:checked ~ .main-menu-items {
