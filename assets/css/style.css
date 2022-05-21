@@ -28,37 +28,37 @@ img {
 }
  
 h1 {
-    font-size: 4vw;
+    font-size: 4em;
 }
 
 h2 {
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 
 h3 {
-    font-size: 1.2vw;
+    font-size: 1.2em;
 }
 
 p {
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 figcaption {
-    font-size: 0.8vw;
+    font-size: 0.8em;
 }
 
 button, #submit {
-    padding: 1vw;
-    margin-top: 1vw;
-    font-size: 1vw;
-    border-radius: 1vw;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1em;
+    border-radius: 1rem;
 }
 
 /* Navbar, Nav Elements and Logo */
 
 .bar {
     width: 100vw;
-    height:fit-content;
+    height:50px;
     background-color: #493A48;
     color: #BD9792;
 }
@@ -103,10 +103,10 @@ button, #submit {
 
 .main-menu-items li {
     list-style-type: none;
-    margin-right: 3vw;
+    margin-right: 3rem;
     font-family: Mitr, sans-serif;
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 1.4em;
     float: left;
 }
 .navbar a:hover, #main-menu li:hover, .social-networks a:hover {
@@ -119,8 +119,8 @@ button, #submit {
     color: #BD9792;
     background-color: #6D5058;
     width:fit-content;
-    border-radius: 2vw;
-    padding: 0 1vw;
+    border-radius: 2rem;
+    padding: 0 1rem;
 }
 
 .call-to-action:hover {
