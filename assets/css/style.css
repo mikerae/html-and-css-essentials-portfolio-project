@@ -109,7 +109,7 @@ button, #submit {
     font-size: 1.4em;
     float: left;
 }
-.navbar a:hover, #main-menu li:hover, .social-networks a:hover {
+.navbar a:hover, .main-menu-items li:hover, .social-networks a:hover {
     color:cornsilk;
 }
 
@@ -135,7 +135,7 @@ button, #submit {
     width: 100vw;
     height: 80vh;
     position:relative;
-    padding-top: 3vw;
+    padding-top: 50px;
 }
 
 .section-content-outer-wrapper {
@@ -401,7 +401,7 @@ p.tools {
 /* Stay In Touch Section */
 
 #stay-in-touch {
-    height: 88%;
+    height: 90%;
 }
 
 #stayintouch-content-outer-wrapper {
@@ -478,6 +478,10 @@ p.tools {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3em;
+    }
+
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR  and modified see Readme.md*/
     .navbar {
         opacity: 0.95;
