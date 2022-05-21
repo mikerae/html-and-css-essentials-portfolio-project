@@ -65,7 +65,7 @@ button, #submit {
 
 .navbar {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     z-index: 2;
     height: 50px;
 }
@@ -189,24 +189,15 @@ button, #submit {
 /* Enjoy Fire Section */
 
 #enjoy-fire-content-wrapper {
-    margin-top: 5%;
-}
-
-#enjoy-fire-items-left {
-    width: 29%;
-    padding-left: 10%;
-    padding-top: 5vw;
-}
-
-#enjoy-fire-items-right {
-    width: 29%;
-    padding-right: 7%;
-    padding-left: 3.5%;
-    padding-top: 5vw;
+    margin-top: 50px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-around;
 }
 
 .enjoy-fire-items {
-    padding-top: 5vw;
+    padding-top: 5rem;
     width:fit-content;
 }
 .enjoy-fire-items a {
@@ -217,7 +208,7 @@ button, #submit {
 .enjoy-fire-items p {
     font-family:Mitr, sans-serif;
     font-weight: 500;
-    font-size: 1vw;
+    font-size: 1em;
 }
 
 #enjoy-fire-items-left > div, #enjoy-fire-items-right > div {
@@ -225,25 +216,30 @@ button, #submit {
 }
 
 #enjoy-fire-items-left {
-    float: left;
+    width: fit-content;
+    min-width: min-content;
+    padding: 0 1rem;
 }
 
 #enjoy-fire-items-right {
-    float: right;
+    width: fit-content;
+    min-width: min-content;
+    padding: 0 1rem;
 }
 
 #hero-image-wrapper {
-    width: 40vw;
-    height: 30vw;
+    width: 40rem;
+    min-width: 40rem;
+    height: 30rem;
     position:relative;
     overflow: hidden;
     border-radius: 20px;
 }
 
 #hero-img {
-    width: 60vw;
+    width: 60rem;
     object-fit: fill;
-    object-position: -8vw -10vw;
+    object-position: -6rem -10rem;
 }
 
 /* Light a Fire Section */
@@ -480,6 +476,41 @@ p.tools {
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 3em;
+    }
+
+    #enjoy-fire-content-wrapper {
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    #enjoy-fire-items-left > div, #enjoy-fire-items-right > div {
+        padding-top: 10px;
+    }
+
+    #hero-image-wrapper {
+        order: 1;
+        border-radius: 0;
+        width: 100vw;
+        height: 62vw;
+    }
+
+    #hero-img {
+        width: 120vw;
+        object-position: -10vw -18vw;
+    }
+
+    #enjoy-fire-items-left {
+        order: 2;
+        display: none;
+    }
+
+    #enjoy-fire-items-right {
+        order: 3;
+        display: none;
+    }
+
+    .enjoy-fire-items h2 {
+        font-size: 1em;
     }
 
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR  and modified see Readme.md*/
