@@ -657,7 +657,7 @@ p.tools {
         margin-top: 10px;
     }
 
-    /* Light Fire Section 9small screen) */
+    /* Light Fire Section small screen) */
 
     #lightfire-content-wrapper {
         display: block;
@@ -728,19 +728,82 @@ p.tools {
     }
 }
 
-/* Mid-range devices (portrait tablets, large phones, and small Laptops etc beteween 600px and 1024 px) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
+/* Mid range devices (phones, 1023px and down) */
+    /*@media only screen and (max-width: 1023px) {
+
+    /* Enjoy Fire Section common code (small - mid range screen)
+    #enjoy-fire-content-wrapper {
+        flex-direction: column;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    #enjoy-fire-items-left  > div, #enjoy-fire-items-right > div {
+        padding-top: 0px;
+    }
+
+    #hero-image-wrapper {
+        order: 1;
+        border-radius: 0;
+        width: 100vw;
+        height: 36vh;
+    }
+
+    #hero-img {
+        width: 160vw;
+        object-position: -17vw -12vh;
+        object-fit: cover;
+    }
+
+    #enjoy-fire-items-left {
+        order: 2;
+    }
+
+    #enjoy-fire-items-right {
+        order: 3;
+    }
+
+    .enjoy-fire-items {
+        padding-top: 0px;
+    }
+
+    .enjoy-fire-items h2 {
+        font-size: 1em;
+    }
+
+    #ef-lightfire {
+        margin-top: 10px;
+    }
+
+}*/
+
+/* Mid-range devices (portrait tablets, large phones, and small Laptops etc beteween 601px and 1023 px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
         display: none;
         }
     /* end of copied code */
 
-    
+    /* Mid range hero image modification */
+/*
+    #hero-image-wrapper {
+        order: 1;
+        border-radius: 0;
+        width: 100vw;
+        height: 36vh;
+    }
+
+    #hero-img {
+        width: 160vw;
+        object-position: -17vw -12vh;
+        object-fit: cover;
+    }
+    */
 }
 
 /* Larger devices (Laptops etc, beteween 768px and 1024 px) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
         display: none;
@@ -748,6 +811,14 @@ p.tools {
     /* end of copied code*/
     .navbar {
         height: 100px;
+    }
+
+    .logo {
+        font-size: 1.4em;
+    }
+
+    .section-wrapper {
+        padding-top: 100px;
     }
 
     .items-group {
@@ -759,15 +830,16 @@ p.tools {
     }
 
     #stay-in-touch {
-        height: 80%;
+        height: 87%;
     }
 }
 
-/* Large devices (desktops, 1024px and up) */
-@media only screen and (min-width: 992px) {
+/* Large devices (desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
         display: none;
-        }
+     }
+
     /* end of copied code*/
 }
