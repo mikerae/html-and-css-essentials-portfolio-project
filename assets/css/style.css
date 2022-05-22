@@ -475,44 +475,12 @@ p.tools {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 3em;
+        font-size: 2em;
+        padding: 0px;
     }
 
-    #enjoy-fire-content-wrapper {
-        flex-direction: column;
-        margin-top: 5px;
-        overflow: hidden;
-    }
-
-    #enjoy-fire-items-left > div, #enjoy-fire-items-right > div {
-        padding-top: 10px;
-    }
-
-    #hero-image-wrapper {
-        order: 1;
-        border-radius: 0;
-        width: 100vw;
-        height: 36vh;
-    }
-
-    #hero-img {
-        width: 160vw;
-        object-position: -17vw -12vh;
-        object-fit: cover;
-    }
-
-    #enjoy-fire-items-left {
-        order: 2;
-        display: none;
-    }
-
-    #enjoy-fire-items-right {
-        order: 3;
-        display: none;
-    }
-
-    .enjoy-fire-items h2 {
-        font-size: 1em;
+    .section-wrapper {
+        height: 85vh;
     }
 
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR  and modified see Readme.md*/
@@ -618,6 +586,50 @@ p.tools {
         transform: rotate(-35deg);
     }
     /* end of copied code */
+
+    /* Enjoy Fire Section (small screen) */
+    #enjoy-fire-content-wrapper {
+        flex-direction: column;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    #enjoy-fire-items-left  > div, #enjoy-fire-items-right > div {
+        padding-top: 0px;
+    }
+
+    #hero-image-wrapper {
+        order: 1;
+        border-radius: 0;
+        width: 100vw;
+        height: 36vh;
+    }
+
+    #hero-img {
+        width: 160vw;
+        object-position: -17vw -12vh;
+        object-fit: cover;
+    }
+
+    #enjoy-fire-items-left {
+        order: 2;
+    }
+
+    #enjoy-fire-items-right {
+        order: 3;
+    }
+
+    .enjoy-fire-items {
+        padding-top: 0px;
+    }
+
+    .enjoy-fire-items h2 {
+        font-size: 1em;
+    }
+
+    #ef-lightfire {
+        margin-top: 10px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
