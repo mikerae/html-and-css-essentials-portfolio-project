@@ -630,6 +630,29 @@ p.tools {
     #ef-lightfire {
         margin-top: 10px;
     }
+
+    /* Light Fire Section 9small screen) */
+
+    #lightfire-content-wrapper {
+        display: block;
+    }
+
+    #lightfire-aside {
+        display: flexbox;
+        width:100%;
+        height: fit-content;
+        position: relative;
+    }
+
+    #lightfire-aside h2, #lightfire-aside-inner {
+        display: none;
+    }
+
+    #lightfire-article {
+        grid-template-columns: 1fr;
+    }
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
