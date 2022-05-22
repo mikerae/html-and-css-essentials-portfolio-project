@@ -728,16 +728,27 @@ p.tools {
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Mid-range devices (portrait tablets and large phones, beteween 600px and 768 px) */
+@media only screen and (max-width: 600px) and (min-width: 768px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
         display: none;
         }
     /* end of copied code*/
+
 }
 
-/* Large devices (laptops, desktops, 992px and up) */
+/* Larger devices (Laptops etc, beteween 768px and 1024 px) */
+@media only screen and (max-width: 600px) and (min-width: 768px) {
+    /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
+    .bar input[type="checkbox"], .bar .hamburger-lines {
+        display: none;
+        }
+    /* end of copied code*/
+
+}
+
+/* Large devices (desktops, 1024px and up) */
 @media only screen and (min-width: 992px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
