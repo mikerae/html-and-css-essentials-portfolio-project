@@ -652,6 +652,20 @@ p.tools {
         grid-template-columns: 1fr;
     }
 
+    /* Tools For Firelighting Section Small Screens */
+    #tools {
+        height: fit-content;
+    }
+
+    .tools-wrapper-outer {
+        display: block;
+    }
+
+    .tools-wrapper-inner {
+        width: 90%;
+        margin-top: 1rem;
+    }
+    
 
 }
 
