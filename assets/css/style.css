@@ -712,6 +712,12 @@ p.tools {
         padding-bottom: 3rem;
     }
 
+    /* Response Page */
+    #left-content {
+        margin: auto;
+        padding-left: 0;
+    }
+
     #footer {
         position: fixed;
         bottom: 0px;
