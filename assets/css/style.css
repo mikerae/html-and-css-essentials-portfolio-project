@@ -481,7 +481,6 @@ p.tools {
 
     .section-wrapper {
         height: 85vh;
-        height: fit-content;
     }
     
     .section-content-outer-wrapper {
@@ -509,7 +508,6 @@ p.tools {
     .text-right {
         text-align: center;
     }
-
 
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR  and modified see Readme.md*/
     .navbar {
@@ -695,6 +693,10 @@ p.tools {
     }
     
     /* Responsible Fire Section */
+
+    #responsible-fire-lighting {
+        height: fit-content;
+    }
     #memories {
         margin-top: 5%;
         margin-left: 65%;
@@ -705,6 +707,15 @@ p.tools {
         padding: 1%;
     }
 
+    #stay-in-touch {
+        height: fit-content;
+        padding-bottom: 3rem;
+    }
+
+    #footer {
+        position: fixed;
+        bottom: 0px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
