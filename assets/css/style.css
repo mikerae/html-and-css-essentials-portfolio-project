@@ -48,7 +48,7 @@ figcaption {
 }
 
 button, #submit {
-    padding: 1rem 1rem;
+    padding: 1rem;
     margin-top: 1rem;
     font-size: 1em;
     border-radius: 1rem;
@@ -103,10 +103,10 @@ button, #submit {
 
 .main-menu-items li {
     list-style-type: none;
-    margin-right: 3rem;
+    margin-right: 2rem;
     font-family: Mitr, sans-serif;
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 1.38em;
     float: left;
 }
 .navbar a:hover, .main-menu-items li:hover, .social-networks a:hover {
@@ -729,7 +729,18 @@ p.tools {
 }
 
 /* Mid-range devices (portrait tablets, large phones, and small Laptops etc beteween 600px and 1024 px) */
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
+    .bar input[type="checkbox"], .bar .hamburger-lines {
+        display: none;
+        }
+    /* end of copied code */
+
+    
+}
+
+/* Larger devices (Laptops etc, beteween 768px and 1024 px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
         display: none;
@@ -737,15 +748,6 @@ p.tools {
     /* end of copied code*/
     .navbar {
         height: 100px;
-    }
-
-    .section-wrapper {
-        padding-top: 100px;
-        height: 65vh;
-    }
-
-    #hero-image-wrapper {
-        height: 27rem;
     }
 
     .items-group {
@@ -759,19 +761,6 @@ p.tools {
     #stay-in-touch {
         height: 80%;
     }
-}
-
-/* Larger devices (Laptops etc, beteween 768px and 1024 px) */
-@media only screen and (min-width: 600px) and (max-width: 768px) {
-    /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
-    .bar input[type="checkbox"], .bar .hamburger-lines {
-        display: none;
-        }
-    /* end of copied code*/
-    .navbar {
-        height: 100px;
-    }
-
 }
 
 /* Large devices (desktops, 1024px and up) */
