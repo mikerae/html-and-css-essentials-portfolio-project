@@ -48,7 +48,7 @@ figcaption {
 }
 
 button, #submit {
-    padding: 1rem;
+    padding: 1rem 1rem;
     margin-top: 1rem;
     font-size: 1em;
     border-radius: 1rem;
@@ -391,7 +391,7 @@ p.tools {
 #memories h2 {
     color:#BD9792;
     padding: 1%;
-    font-size: 1.5vw;
+    font-size: 1.5em;
 }
 
 /* Stay In Touch Section */
@@ -482,6 +482,7 @@ p.tools {
     .section-wrapper {
         height: 85vh;
     }
+
 
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR  and modified see Readme.md*/
     .navbar {
@@ -666,6 +667,47 @@ p.tools {
         margin-top: 1rem;
     }
     
+    /* Responsible Fire Section */
+    #responsible-fire-lighting {
+        height: fit-content;
+    }
+    
+    #responsible-fire-lighting-content-outer {
+        display: grid;
+        grid-template-columns: 1;
+    }
+
+    #responsible-content-right {
+        order: 1;
+        width: 90%;
+        height: 25vh;
+        margin-left: 20px;
+    }
+
+    #responsible-content-left {
+        order: 2;
+        margin-top: 40px;
+        width: 90%;
+    }
+
+    #memories {
+        margin-top: 5%;
+        margin-left: 65%;
+    }
+
+    #memories h2 {
+        font-size: 0.8em;
+        padding: 1%;
+    }
+
+    .section-content-right-img {
+        border-radius: 0;
+    }
+
+    .text-right {
+        text-align: center;
+    }
+
 
 }
 
