@@ -153,7 +153,7 @@ button, #submit {
 }
 
 .items-group {
-    padding: 1vw;
+    padding: 1rem;
 }
 
 .section-content-right {
@@ -728,23 +728,49 @@ p.tools {
     }
 }
 
-/* Mid-range devices (portrait tablets and large phones, beteween 600px and 768 px) */
-@media only screen and (max-width: 600px) and (min-width: 768px) {
+/* Mid-range devices (portrait tablets, large phones, and small Laptops etc beteween 600px and 1024 px) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
         display: none;
         }
     /* end of copied code*/
+    .navbar {
+        height: 100px;
+    }
 
+    .section-wrapper {
+        padding-top: 100px;
+        height: 65vh;
+    }
+
+    #hero-image-wrapper {
+        height: 27rem;
+    }
+
+    .items-group {
+        padding: 0.2rem;
+    }
+
+    #stayintouch-content-outer-wrapper {
+        height: 60%;
+    }
+
+    #stay-in-touch {
+        height: 80%;
+    }
 }
 
 /* Larger devices (Laptops etc, beteween 768px and 1024 px) */
-@media only screen and (max-width: 600px) and (min-width: 768px) {
+@media only screen and (min-width: 600px) and (max-width: 768px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
         display: none;
         }
     /* end of copied code*/
+    .navbar {
+        height: 100px;
+    }
 
 }
 
