@@ -238,7 +238,7 @@ button, #submit {
 
 #hero-img {
     width: 60rem;
-    object-fit: fill;
+    object-fit: cover;
     object-position: -6rem -10rem;
 }
 
@@ -481,6 +481,7 @@ p.tools {
     #enjoy-fire-content-wrapper {
         flex-direction: column;
         margin-top: 5px;
+        overflow: hidden;
     }
 
     #enjoy-fire-items-left > div, #enjoy-fire-items-right > div {
@@ -491,12 +492,13 @@ p.tools {
         order: 1;
         border-radius: 0;
         width: 100vw;
-        height: 62vw;
+        height: 36vh;
     }
 
     #hero-img {
-        width: 120vw;
-        object-position: -10vw -18vw;
+        width: 160vw;
+        object-position: -17vw -12vh;
+        object-fit: cover;
     }
 
     #enjoy-fire-items-left {
