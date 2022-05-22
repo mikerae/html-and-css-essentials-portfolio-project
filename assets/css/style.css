@@ -481,6 +481,33 @@ p.tools {
 
     .section-wrapper {
         height: 85vh;
+        height: fit-content;
+    }
+    
+    .section-content-outer-wrapper {
+        display: grid;
+        grid-template-columns: 1;
+    }
+
+    .section-content-right {
+        order: 1;
+        width: 90%;
+        height: 25vh;
+        margin-left: 20px;
+    }
+
+    .section-content-left {
+        order: 2;
+        margin-top: 40px;
+        width: 90%;
+    }
+
+    .section-content-right-img {
+        border-radius: 0;
+    }
+
+    .text-right {
+        text-align: center;
     }
 
 
@@ -668,28 +695,6 @@ p.tools {
     }
     
     /* Responsible Fire Section */
-    #responsible-fire-lighting {
-        height: fit-content;
-    }
-    
-    #responsible-fire-lighting-content-outer {
-        display: grid;
-        grid-template-columns: 1;
-    }
-
-    #responsible-content-right {
-        order: 1;
-        width: 90%;
-        height: 25vh;
-        margin-left: 20px;
-    }
-
-    #responsible-content-left {
-        order: 2;
-        margin-top: 40px;
-        width: 90%;
-    }
-
     #memories {
         margin-top: 5%;
         margin-left: 65%;
@@ -699,15 +704,6 @@ p.tools {
         font-size: 0.8em;
         padding: 1%;
     }
-
-    .section-content-right-img {
-        border-radius: 0;
-    }
-
-    .text-right {
-        text-align: center;
-    }
-
 
 }
 
