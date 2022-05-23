@@ -87,6 +87,10 @@ button, #submit {
     color: inherit;
 }
 
+#dummy-checkbox {
+    color: #493A48;
+}
+
 /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR   and modified. see Readme.md*/
 .main-menu-items {
     order: 2;
@@ -121,6 +125,7 @@ button, #submit {
     width:fit-content;
     border-radius: 2rem;
     padding: 0 1rem;
+    border: #161B29 solid 2px;
 }
 
 .call-to-action:hover {
