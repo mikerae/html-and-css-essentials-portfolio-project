@@ -619,12 +619,12 @@ p.tools {
         order: 1;
         border-radius: 0;
         width: 100vw;
-        height: 36vh;
+        height: 40rem;
     }
 
     #hero-img {
-        width: 160vw;
-        object-position: -17vw -12vh;
+        width: 42rem;
+        object-position: -5rem -6rem;
         object-fit: cover;
     }
 
@@ -712,22 +712,25 @@ p.tools {
         margin: auto;
     }
 
+     /* Enjoy Fire */
     /* Mid range hero image modification */
-
-    /* Enjoy Fire */
-
     #hero-image-wrapper {
         order: 1;
-        border-radius: 0;
-        width: 80vw;
-        height: 36vh;
+        border-radius: 2em;
+        width: 30rem;
+        min-width: 30rem;
+        height: 17rem;
         margin:auto;
     }
 
     #hero-img {
-        width: 100vw;
-        object-position: -2vw -12vh;
+        width: 34rem;
+        object-position: 0 -5rem;
         object-fit: cover;
+    }
+
+    #enjoy-fire-content-wrapper {
+        height: 90%;
     }
 
     .enjoy-fire-items {
