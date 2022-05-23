@@ -23,25 +23,25 @@
                </a>
                <!-- code copied from https://codepen.io/alvarotrigo/pen/XWejzjR modified slightly-->
                <label id="dummy-checkbox-label" for="dummy-checkbox">This is a dummy lable to make the hamburger menu work</label>
-               <input type="checkbox" name="" id="dummy-checkbox">
+               <input type="checkbox" name="checkbox" id="dummy-checkbox">
                <div class="hamburger-lines">
                    <span class="line line1"></span>
                    <span class="line line2"></span>
                    <span class="line line3"></span>
                </div>
                <!-- end of copied code -->
-               <ul class="main-menu-items">
-                    <li>
-                         <a href="#lightfire" area-label="This link takes you to the section called Light a Fire">Light a Fire!</a>
+               <ul class="main-menu-items" aria-labelledby="mm-lightfire mm-tools mm-responsible-fire-lighting mm-stay-in-touch">
+                    <li >
+                         <a id="mm-lightfire" href="#lightfire">Light a Fire!</a>
                     </li>
                     <li>
-                         <a href="#tools" area-label="This link takes you to the Tools for Fire Lighing section">Tools</a>
+                         <a id="mm-tools" href="#tools">Tools</a>
                     </li>
                     <li>
-                         <a href="#responsible-fire-lighting" area-label="This link takes you to the section on Resposnible Fire Ligting">Responsible Fire Lighting</a>
+                         <a id="mm-responsible-fire-lighting" href="#responsible-fire-lighting">Responsible Fire Lighting</a>
                     </li>
                     <li>
-                         <a href="#stay-in-touch" area-label="This link takes you to the section called Stay In Touch">Stay In Touch</a>
+                         <a id="mm-stay-in-touch" href="#stay-in-touch">Stay In Touch</a>
                     </li>    
                </ul>
           </div>
@@ -52,11 +52,11 @@
      <section class="section-wrapper">
           <h1>Enjoy Fire!</h1>
           <div class="section-content-outer-wrapper" id="enjoy-fire-content-wrapper">
-               <div id="enjoy-fire-items-left">
+               <div id="enjoy-fire-items-left" aria-labelledby="ef-lightfire ef-tools ef-responsible-fire-lighting ef-stay-in-touch">
                     <!-- These divs signpost a progressive reveal of Enjoy Fire! contents and allow for indevidal positioning-->
                     <!-- On Hover Popups not yet implemented: use links instead in this version release -->
                     <div id="ef-lightfire" class="enjoy-fire-items">
-                         <a href="#lightfire" area-label="This link takes you to the section called Light a Fire">
+                         <a href="#lightfire" >
                               <h2 class="call-to-action">
                                    <span><i class="fa-solid fa-fire"></i></span>
                                    Light a Fire!
@@ -65,7 +65,7 @@
                          <p>Some tips on lighting a sustainable fire</p>
                     </div>
                     <div id="ef-tools" class="enjoy-fire-items">
-                         <a  href="#tools" area-label="This link takes you to the Tools for Fire Lighing section">
+                         <a  href="#tools">
                               <h2 class="call-to-action">
                                    <span><i class="fa-solid fa-screwdriver-wrench"></i></span>
                                    Tools for Fire Lighting
@@ -79,7 +79,7 @@
                </div>
                <div id="enjoy-fire-items-right">
                     <div id="ef-responsible-fire-lighting" class="enjoy-fire-items">
-                         <a href="#responsible-fire-lighting" area-label="This link takes you to the section on Resposnible Fire Ligting">
+                         <a href="#responsible-fire-lighting">
                               <h2 class="call-to-action">
                                    <span><i class="fa-solid fa-seedling"></i></span>
                                    Responsible Fire Lighting
@@ -88,7 +88,7 @@
                          <p>Taking care of the environment whilst enjoying fire</p>
                     </div>
                     <div id="ef-stay-in-touch" class="enjoy-fire-items">
-                         <a href="#stay-in-touch" area-label="This link takes you to the section called Stay In Touch">
+                         <a href="#stay-in-touch">
                               
                               <h2 class="call-to-action">
                                    <span><i class="fa-solid fa-users-between-lines"></i></span>
@@ -111,44 +111,44 @@
                <aside id="lightfire-aside">
                     <h2>Contents</h2>
                     <div id="lightfire-aside-inner">
-                    <ul>
+                    <ul aria-labelledby="introduction area-prep gather-materials prep-matherials choose-fire-lay ign-stbl sust-fire extinguish">
                          <li>
-                              <a  class="call-to-action" href="#intro-section" area-label="This link takes you to the Introduction to the Tips on Fire Lighing article">
+                              <a id="introduction" class="call-to-action" href="#intro-section">
                                    Introduction
                               </a>
                          </li>
                          <li>
-                              <a  class="call-to-action" href="#area-prep-section" area-label="This link takes you to Area Preparation in the  Fire Lighing article">
+                              <a id="area-prep" class="call-to-action" href="#area-prep-section">
                                    Area Preparation
                               </a>
                          </li>
                          <li>
-                              <a  class="call-to-action" href="#gather-materials-section" area-label="This link takes you to Gathering Materials in the  Fire Lighing article">
+                              <a id="gather-materials" class="call-to-action" href="#gather-materials-section">
                                    Gathering Materials
                               </a>
                          </li>
                          <li>
-                              <a  class="call-to-action" href="#prep-materials-section" area-label="This link takes you to Preparation of Materials in the Fire Lighing article">
+                              <a id="prep-matherials" class="call-to-action" href="#prep-materials-section">
                                    Preparation of Materials
                               </a>
                          </li>
                          <li>
-                              <a  class="call-to-action" href="#fire-lay-section" area-label="This link takes you to Choosing a Fire Lay in the Fire Lighing article">
+                              <a id="choose-fire-lay" class="call-to-action" href="#fire-lay-section">
                                    Choosing a Fire Lay
                               </a>
                          </li>
                          <li>
-                              <a  class="call-to-action" href="#ignition-section" area-label="This link takes you to From Ignition to Sustainable Fire in the Fire Lighing article">
+                              <a id="ign-stbl" class="call-to-action" href="#ignition-section">
                                    From Ignition to Sustainable Fire
                               </a>
                          </li>
                          <li>
-                              <a  class="call-to-action" href="#sustained-fire-section" area-label="This link takes you to A Sustained Fire in the Fire Lighing article">
+                              <a id="sust-fire" class="call-to-action" href="#sustained-fire-section">
                                    A Sustained Fire
                               </a>
                          </li>
                          <li>
-                              <a  class="call-to-action" href="#extinguishing-section" area-label="This link takes you to Extinguishing the Fire and making sure to ‘Leave no trace’ in the Fire Lighing article">
+                              <a id="extinguish" class="call-to-action" href="#extinguishing-section">
                                    Extinguishing the Fire and making sure to ‘Leave No Trace’
                               </a>
                          </li>
@@ -165,12 +165,12 @@
                     <h2>Tips on Fire Lighting</h2>
                     <section>
                          <h3 class="navbar-offset"><span id="intro-section"></span>Introduction</h3>
-                         <div>
+                         <div aria-describedby="essential-bushcraft">
                               <p>Fire lighting is one of the key survival skills in Bushcraft. Other skills include being able to find or make a shelter for protection from the elements, being able to purify water for drinking, and providing food.</p>
                               <p>Bushcraft in general and fire lighting in particular are large subjects and fire lighting can be very challenging and involved under certain circumstances. Here are some basic tips on how to light a fire in dry conditions, using basic tools and materials.</p>
-                              <p>You can find a more in-depth discussion of fire lighting and bushcraft in Ray Mears' book 
+                              <p id="essential-bushcraft">You can find a more in-depth discussion of fire lighting and bushcraft in Ray Mears' book 
                               <a href="https://www.raymears.com/Bushcraft_Product/164-Ray-Mears-Essential-Bushcraft-Signed-Copy/
-                              " area-label="Follow this link to obtain a copy of Ray Mears book Essential Bushcraft" target="_blank" rel="noopener"><span>‘Essential Bushcraft’.</span></a>
+                              " target="_blank" rel="noopener"><span>‘Essential Bushcraft’.</span></a>
                               </p>
                          </div>
                     </section>
@@ -281,13 +281,11 @@
                          <img class="tools" src="assets/images/bushknife.jpg" alt="Morakniv Companion Heavy Duty MG Knife">
                          <figcaption>Morakniv Companion Heavy Duty MG Knife [Ray Mears Bushcraft]</figcaption>
                     </figure>
-                    <h2 class="tools" 2>Bush Knife</h2>
-                    <p class="tools" >A Bush Knife is the one essential piece of equipment for survival.  Most materials needed for survival and bushcraft can be fashioned using the bush knife.</p>
-                    <a  class="tools" href="https://www.raymears.com/Bushcraft_Product/952-Morakniv-Companion-Heavy-Duty-MG-Knife/" target="_blank" rel="noopener"
+                    <h2 class="tools">Bush Knife</h2>
+                    <p class="tools">A Bush Knife is the one essential piece of equipment for survival.  Most materials needed for survival and bushcraft can be fashioned using the bush knife.</p>
+                    <a  class="tools call-to-action" href="https://www.raymears.com/Bushcraft_Product/952-Morakniv-Companion-Heavy-Duty-MG-Knife/" target="_blank" rel="noopener"
                     aria-label="Visit the Ray Mears Bushcraft Shop to find out more about the Morkniv Companion Heavy Duty MG Knife (opens in a new tab)">
-                         <button  class="tools call-to-action" type="button">
-                              Buy a Knife
-                         </button>
+                         Buy a Knife
                     </a>
                </div>
 
@@ -299,11 +297,8 @@
                     </figure>
                     <h2 class="tools" >Fire Stick</h2>
                     <p class="tools" >A fire stick will create high temperature sparks for ignition, even when wet. Whilst not essential, it makes ignition much easier and more reliable than other more primative methods.</p>
-                    <a  class="tools" href="https://www.raymears.com/Bushcraft_Product/76-Ray-Mears-Fire-Stick/" target="_blank" rel="noopener"
-                    aria-label="Visit the Ray Mears Bushcraft Shop to find out more about the Ray Mears Fire Stick (opens in a new tab)">
-                         <button  class="tools call-to-action" type="button">
-                              Buy a Fire Stick
-                         </button>
+                    <a  class="tools call-to-action" href="https://www.raymears.com/Bushcraft_Product/76-Ray-Mears-Fire-Stick/" target="_blank" rel="noopener">
+                         Buy a Fire Stick
                     </a>
                </div>
 
@@ -315,11 +310,8 @@
                     </figure>
                     <h2 class="tools" >Saw</h2>
                     <p class="tools">The saw is a convenience. The time and effort saved in preparing materials for fire lighting easily justify its place in the bushcraft tool kit.</p>
-                    <a  class="tools" href="https://www.raymears.com/Bushcraft_Product/73-Bahco-Laplander-Folding-Saw/" target="_blank" rel="noopener"
-                    aria-label="Visit the Ray Mears Bushcraft Shop to find out more about the Bahco Laplander Folding Saw (opens in a new tab)">
-                         <button  class="tools call-to-action" type="button">
-                              Buy a Saw
-                         </button>
+                    <a  class="tools call-to-action" href="https://www.raymears.com/Bushcraft_Product/73-Bahco-Laplander-Folding-Saw/" target="_blank" rel="noopener">
+                         Buy a Saw
                     </a>
                </div>
           </div>
@@ -336,38 +328,29 @@
                     <div class="items-group">
                          <h2>The Country Code</h2>
                          <p>Here is a summery of the UK Countryside code. This advice, when followed, will serve to protect our countryside and promote our enjoyment of it.</p>
-                         <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjB-fLTkar3AhXzQUEAHbOfDYoQFnoECAoQAQ&url=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fgovernment%2Fuploads%2Fsystem%2Fuploads%2Fattachment_data%2Ffile%2F1052574%2FCountryside_Code_A5.pdf&usg=AOvVaw2sW2vn5hh0QyZ0f99t-CNX" target="_blank" rel="noopener"
-                              aria-label="This link takes you to information on the UK Coutryside Code(opens in a new tab)">
-                              <button class="call-to-action" type="button">
-                                   Find out more about the County Code
-                              </button>
+                         <a class="call-to-action" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjB-fLTkar3AhXzQUEAHbOfDYoQFnoECAoQAQ&url=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fgovernment%2Fuploads%2Fsystem%2Fuploads%2Fattachment_data%2Ffile%2F1052574%2FCountryside_Code_A5.pdf&usg=AOvVaw2sW2vn5hh0QyZ0f99t-CNX" target="_blank" rel="noopener">
+                              Find out more about the County Code
                          </a>
                     </div>
                     <div class="items-group">
                          <h2>Fire Lighting and UK Law</h2>
                          <p>The law varies around the UK regarding fire lighting.  In Scotland, under certain conditions, wild camp fires are permitted, whilst in England, wild camp fires are generally forbidden. Local bye-laws may apply. Here you can research the relevant legislation.</p>
-                         <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjB-fLTkar3AhXzQUEAHbOfDYoQFnoECBIQAQ&url=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fpublications%2Fthe-countryside-code&usg=AOvVaw1jz1E_ak8HCMTbVmLuRKzh" target="_blank" rel="noopener"
-                         aria-label="This link takes you the UK Government site Law regarding Fire Lighting, including regional variations  (opens in a new tab)">
-                              <button class="call-to-action" type="button">
-                                   Find out more about Fire Lighting and UK Law
-                              </button>
+                         <a class="call-to-action" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjB-fLTkar3AhXzQUEAHbOfDYoQFnoECBIQAQ&url=https%3A%2F%2Fwww.gov.uk%2Fgovernment%2Fpublications%2Fthe-countryside-code&usg=AOvVaw1jz1E_ak8HCMTbVmLuRKzh" target="_blank" rel="noopener">
+                              Find out more about Fire Lighting and UK Law
                          </a>
                     </div>
                     <div class="items-group">
                          <h2>Ray Mears Essential Bushcraft</h2>
                          <p>Ray Mears' popular book on Bushcraft is an excellent resource for developing an understanding responsible enjoyment of the countryside.</p>
-                         <a href="https://www.raymears.com/Bushcraft_Product/164-Ray-Mears-Essential-Bushcraft-Signed-Copy/" target="_blank" rel="noopener"
-                         aria-label="This link takes you Ray Mears Bushcraft shop and Ray's book on Essential Bushcraft (opens in a new tab)">
-                              <button class="call-to-action" type="button">
-                                   Find out more about Bushcraft
-                              </button>
+                         <a class="call-to-action" href="https://www.raymears.com/Bushcraft_Product/164-Ray-Mears-Essential-Bushcraft-Signed-Copy/" target="_blank" rel="noopener">
+                              Find out more about Bushcraft
                          </a>
                     </div>
                </div>
                <div class="section-content-right" id="responsible-content-right">
                     <figure class="section-content-right-figure">
                          <img class="section-content-right-img" id="responsible-img" src="assets/images/desert-fire.jpg" alt="Friends responsibly enjoying a camp fire in the desert">
-                         <figcaption class="text-right">Friends responsibly enjoying a camp fire in the desert [photo: pexels/Tomáš Malík/1703314]</figcaption>
+                         <figcaption class="text-right">Friends responsibly enjoying a camp fire in the desert [photo: pexels/Tomaas Malik/1703314]</figcaption>
                     </figure>
                     <!-- Memories Text -->
                     <div id="memories">
