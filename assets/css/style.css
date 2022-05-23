@@ -614,15 +614,6 @@ p.tools {
     /* end of copied code */
 
     /* Enjoy Fire Section (small screen) */
-    #enjoy-fire-content-wrapper {
-        flex-direction: column;
-        margin-top: 5px;
-        overflow: hidden;
-    }
-
-    #enjoy-fire-items-left  > div, #enjoy-fire-items-right > div {
-        padding-top: 0px;
-    }
 
     #hero-image-wrapper {
         order: 1;
@@ -635,26 +626,6 @@ p.tools {
         width: 160vw;
         object-position: -17vw -12vh;
         object-fit: cover;
-    }
-
-    #enjoy-fire-items-left {
-        order: 2;
-    }
-
-    #enjoy-fire-items-right {
-        order: 3;
-    }
-
-    .enjoy-fire-items {
-        padding-top: 0px;
-    }
-
-    .enjoy-fire-items h2 {
-        font-size: 1em;
-    }
-
-    #ef-lightfire {
-        margin-top: 10px;
     }
 
     /* Light Fire Section small screen) */
@@ -729,13 +700,37 @@ p.tools {
 }
 
 /* Mid range devices - unique code  */
-@media only screen and (min-width: 601px) and (max-width: 1023px)  {
+@media only screen and (min-width: 601px) and (max-width: 1028px)  {
     
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
         display: none;
         }
     /* end of copied code */
+
+    /* Mid range hero image modification */
+
+    /* Enjoy Fire */
+
+    #hero-image-wrapper {
+        order: 1;
+        border-radius: 0;
+        width: 80vw;
+        height: 36vh;
+        margin:auto;
+    }
+
+    #hero-img {
+        width: 100vw;
+        object-position: -2vw -12vh;
+        object-fit: cover;
+    }
+
+    .enjoy-fire-items {
+        padding-top: 5rem;
+        width:fit-content;
+        margin: 10px auto 0 25vw;
+    }
 
     /* Lightfire-aside */
     #lightfire-aside {
@@ -763,11 +758,11 @@ p.tools {
     }
 }
 
-/* Mid range and small devices - common code (phones, tablets etc 1023px and down) */
-@media only screen and (max-width: 1023px) {
+/* Mid range and small devices - common code (phones, tablets etc 1028px and down) */
+@media only screen and (max-width: 1028px) {
 
     /* Enjoy Fire Section */
- /*   #enjoy-fire-content-wrapper {
+    #enjoy-fire-content-wrapper {
         flex-direction: column;
         margin-top: 5px;
         overflow: hidden;
@@ -775,19 +770,6 @@ p.tools {
 
     #enjoy-fire-items-left  > div, #enjoy-fire-items-right > div {
         padding-top: 0px;
-    }
-
-    #hero-image-wrapper {
-        order: 1;
-        border-radius: 0;
-        width: 100vw;
-        height: 36vh;
-    }
-
-    #hero-img {
-        width: 160vw;
-        object-position: -17vw -12vh;
-        object-fit: cover;
     }
 
     #enjoy-fire-items-left {
@@ -808,28 +790,11 @@ p.tools {
 
     #ef-lightfire {
         margin-top: 10px;
-    } */
+    }
 }
 
 /* Lower- Mid-range devices (portrait tablets, large phones etc beteween 601px and 959 px) */
 @media only screen and  (min-width: 601px) and (max-width: 959px) {
-
-    /* Mid range hero image modification */
-    /*
-    #hero-image-wrapper {
-        order: 1;
-        border-radius: 0;
-        width: 100vw;
-        height: 36vh;
-    }
-
-    #hero-img {
-        width: 160vw;
-        object-position: -17vw -12vh;
-        object-fit: cover;
-    }
-    */
-
     .navbar {
         height: 100px;
     }
@@ -856,13 +821,21 @@ p.tools {
 }
 
 
-/* Upper mid-range devices (Lanscape tablets, Laptops etc, beteween 960px and 1023 px) */
-@media only screen and (min-width: 960px) and (max-width: 1023px) {
+/* Upper mid-range devices (Lanscape tablets, Laptops etc, beteween 960px and 1028 px) */
+@media only screen and (min-width: 960px) and (max-width: 1028px) {
+    .section-wrapper {
+        height: 80vh;
+        padding-top: 50px;
+    }
+    
+    .section-content-outer-wrapper {
+        height: 85%;
+    }
 
 }
 
-/* Large devices (desktops, 1024px and up) */
-@media only screen and (min-width: 1024px) {
+/* Large devices (desktops, 1029px and up) */
+@media only screen and (min-width: 1029px) {
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
         display: none;
