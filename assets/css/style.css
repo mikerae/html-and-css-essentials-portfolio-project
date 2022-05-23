@@ -55,7 +55,6 @@ button, #submit {
 }
 
 /* Navbar, Nav Elements and Logo */
-
 .bar {
     width: 100vw;
     height:50px;
@@ -118,7 +117,6 @@ button, #submit {
 }
 
 /* colour for call to action elements */
-
 .call-to-action {
     color: cornsilk;
     background-color: #493A48;
@@ -135,7 +133,6 @@ button, #submit {
 }
 
 /* Generic Section attributes */
-
 .section-wrapper {
     z-index: 0;
     width: 100vw;
@@ -193,7 +190,6 @@ button, #submit {
 }
 
 /* Enjoy Fire Section */
-
 #enjoy-fire-content-wrapper {
     margin-top: 50px;
     display: inline-flex;
@@ -249,7 +245,6 @@ button, #submit {
 }
 
 /* Light a Fire Section */
-
 #lightfire {
     height: fit-content;
 }
@@ -269,7 +264,6 @@ button, #submit {
 }
 
 /* Lightfire-aside */
-
 #lightfire-aside {
     width: 16.66%;
     height: 600px;
@@ -305,7 +299,6 @@ button, #submit {
 }
 
 /* lightfire-article */
-
 #lightfire-article {
     width: 80%;
     height: fit-content;
@@ -333,7 +326,6 @@ button, #submit {
 Lightfire aside Contents link position offset adjusting for navbar.
 Solution from Hrvoje Miljak/ Stack Overflow/ see Readme.md
 */
-
 h3.navbar-offset {
     position: relative;
 }
@@ -344,7 +336,6 @@ h3.navbar-offset span {
 }
 
 /* Tools for fire Lighing Section */
-
 .tools-wrapper-outer {
     position:relative;
     width: 100%;
@@ -383,7 +374,6 @@ p.tools {
 }
 
 /* Responisble Fire Lighting Section */
-
 #responsible-img {
     object-position: 0 75%;
 }
@@ -401,7 +391,6 @@ p.tools {
 }
 
 /* Stay In Touch Section */
-
 #stay-in-touch {
     height: 90%;
 }
@@ -411,7 +400,6 @@ p.tools {
 }
 
 /* Form */
-
 #form  legend {
     font-family:Mitr, sans-serif;
     font-weight: 500;
@@ -427,7 +415,6 @@ p.tools {
 }
 
 /* Footer */
-
 #footer {
     position: relative;
     bottom: 0px;
@@ -456,7 +443,6 @@ p.tools {
 }
 
 /* Response Page */
-
 #response {
     height: 100vh;
 }
@@ -618,7 +604,6 @@ p.tools {
     /* end of copied code */
 
     /* Enjoy Fire Section (small screen) */
-
     #hero-image-wrapper {
         order: 1;
         border-radius: 0;
@@ -633,7 +618,6 @@ p.tools {
     }
 
     /* Light Fire Section small screen) */
-
     #lightfire-content-wrapper {
         display: block;
     }
@@ -668,7 +652,6 @@ p.tools {
     }
     
     /* Responsible Fire Section */
-
     #responsible-fire-lighting {
         height: fit-content;
     }
@@ -850,7 +833,6 @@ p.tools {
     .section-content-outer-wrapper {
         height: 70%;
     }
-
 }
 
 /* Large devices (desktops, 1029px and up) */
