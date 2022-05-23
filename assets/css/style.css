@@ -837,20 +837,13 @@ p.tools {
 @media only screen and (min-width: 960px) and (max-width: 1028px) {
     .section-wrapper {
         padding-top: 50px;
-        height: 87vh;
+        height: 82vh;
     }
 
     .section-content-outer-wrapper {
         height: 70%;
     }
 
-    /*#stayintouch-content-outer-wrapper {
-        height: 80%;
-    }
-
-    #stay-in-touch {
-        height: 87%;
-    } */
 }
 
 /* Large devices (desktops, 1029px and up) */
