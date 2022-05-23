@@ -563,6 +563,7 @@ p.tools {
     .navbar .main-menu-items {
         padding-top: 100px;
         background: #493A48;
+        color: #BD9792;
         height: fit-content;
         max-width: 300px;
         transform: translate(-150%);
