@@ -470,9 +470,7 @@ p.tools {
     width: fit-content;
 }
 
-/* Media Queries Generic code and comments from w3schools.com */
-
-/* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) in protrate */
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 2em;
@@ -700,7 +698,7 @@ p.tools {
 }
 
 /* Mid range devices - unique code  */
-@media only screen and (min-width: 601px) and (max-width: 1028px)  {
+@media only screen and (min-width: 601px) and (max-width: 1028px) {
     
     /* code copied from https://codepen.io/alvarotrigo/pen/XWejzjR */
     .bar input[type="checkbox"], .bar .hamburger-lines {
