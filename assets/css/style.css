@@ -737,13 +737,20 @@ p.tools {
         }
     /* end of copied code */
 
+    /* lightfire-article */
+
+    #lightfire-article {
+        grid-template-columns: 1fr 1fr;
+    }
+
     /* Tools For Firelighting Section Small Screens */
     #tools {
         height: fit-content;
     }
 
     .tools-wrapper-outer {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .tools-wrapper-inner {
