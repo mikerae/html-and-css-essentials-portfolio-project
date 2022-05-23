@@ -21,26 +21,27 @@
                          Enjoy Fire!
                     </h1>
                </a>
-               <!-- code copied from https://codepen.io/alvarotrigo/pen/XWejzjR -->
-               <input type="checkbox" name="" id="">
+               <!-- code copied from https://codepen.io/alvarotrigo/pen/XWejzjR modified slightly-->
+               <label id="dummy-checkbox-label" for="dummy-checkbox">This is a dummy lable to make the hamburger menu work</label>
+               <input type="checkbox" name="checkbox" id="dummy-checkbox">
                <div class="hamburger-lines">
                    <span class="line line1"></span>
                    <span class="line line2"></span>
                    <span class="line line3"></span>
                </div>
                <!-- end of copied code -->
-               <ul class="main-menu-items">
-                    <li>
-                         <a href="index.html#lightfire" area-label="This link takes you to the section called Light a Fire">Light a Fire!</a>
+               <ul class="main-menu-items" aria-labelledby="mm-lightfire mm-tools mm-responsible-fire-lighting mm-stay-in-touch">
+                    <li >
+                         <a id="mm-lightfire" href="index.html#lightfire">Light a Fire!</a>
                     </li>
                     <li>
-                         <a href="index.html#tools" area-label="This link takes you to the Tools for Fire Lighing section">Tools</a>
+                         <a id="mm-tools" href="index.html#tools">Tools</a>
                     </li>
                     <li>
-                         <a href="index.html#responsible-fire-lighting" area-label="This link takes you to the section on Resposnible Fire Ligting">Responsible Fire Lighting</a>
+                         <a id="mm-responsible-fire-lighting" href="index.html#responsible-fire-lighting">Responsible Fire Lighting</a>
                     </li>
                     <li>
-                         <a href="index.html#stay-in-touch" area-label="This link takes you to the section called Stay In Touch">Stay In Touch</a>
+                         <a id="mm-stay-in-touch" href="index.html#stay-in-touch">Stay In Touch</a>
                     </li>    
                </ul>
           </div>
