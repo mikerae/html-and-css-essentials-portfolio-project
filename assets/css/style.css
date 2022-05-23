@@ -116,16 +116,17 @@ button, #submit {
 /* colour for call to action elements */
 
 .call-to-action {
-    color: #BD9792;
-    background-color: #6D5058;
+    color: cornsilk;
+    background-color: #493A48;
     width:fit-content;
     border-radius: 2rem;
     padding: 0 1rem;
 }
 
 .call-to-action:hover {
-    color: #6D5058;
-    background-color: #BD9792;
+    color: #493A48;
+    background-color: cornsilk;
+    border: #161B29 solid 2px;
 }
 
 /* Generic Section attributes */
