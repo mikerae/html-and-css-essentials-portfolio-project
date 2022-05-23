@@ -737,8 +737,12 @@ p.tools {
         }
     /* end of copied code */
 
-    /* lightfire-article */
+    /* Lightfire-aside */
+    #lightfire-aside {
+        display: none;
+    }
 
+    /* lightfire-article */
     #lightfire-article {
         grid-template-columns: 1fr 1fr;
     }
