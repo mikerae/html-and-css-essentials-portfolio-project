@@ -1,11 +1,11 @@
-# Enjoy Fire!
+# Enjoy Fire! Static Website: Code Institute Milestone Project 1
 ![Responsive screenshot](/assets/images/amiresponsive.png)
 
 ## Live Version of Enjoy Fire! Website
-A live version of the Enjoy Fire! websire can be found here - https://mikerae.github.io/html-and-css-essentials-portfolio-project/
+A live version of the Enjoy Fire! website can be found here - https://mikerae.github.io/html-and-css-essentials-portfolio-project/
 
 ## Contents
-+ [User Experience Design (UXD)](#uxd "User Experience Design (UXD)")
++ [User Experience Design - UXD](#user-experience-design "User Experience Design")
 	+ [Strategy](#strategy "Strategy")
         + Stakeholder Stories
 	+ [Scope](#scope "Scope")
@@ -34,9 +34,10 @@ A live version of the Enjoy Fire! websire can be found here - https://mikerae.gi
 	- Feedback
 + [External Resources](#external-resources "External Resources")
 
-# User Experience Design (UXD)
+# User Experience Design
 
-## Strategy - Stakeholder Stories
+## Strategy
+Stakeholder Stories
 
 ### Users
 Users want to find information on how to light a fire.
@@ -51,6 +52,9 @@ Members of the Wider Community would like to prevent damage to land and property
 Here is a summary of the needs and requirements of the stakeholders. Priority was given to features which were implementable within the timeframe of the project, and using technology available. Some fetures were noted for future release.
 ![UXD Scope](/assets/images/uxd-scope.png)
 
-## 
+## Structure
+This flow chart describes the information flow of the site.
+![UXD Structure](uxd-structure.png)
+
 
 
