@@ -54,7 +54,7 @@ Here is a summary of the needs and requirements of the stakeholders. Priority wa
 
 ## Structure
 This flow chart describes the information flow of the site.
-![UXD Structure](uxd-structure.png)
+![UXD Structure](/assets/images/uxd-structure.png)
 
 
 
