@@ -87,6 +87,7 @@ The Colour Pallet was generated at the [Coolers website](https://coolors.co/pale
 NB: There is doubt that these provide sufficient contrast and accent  To be reviewed in testing.
 
 This indeed proved to be the case. The colour 'cornsilk' rgb(255,248,220) was used in 'call-to-action' and responsive elements to provide additional contrast to  the pallet.
+![Cornsilk used in resposive hover action](/assets/images/cornsilk.heic)
 ### Typography
 Fonts were chosen from the [Google Fonts website](https://fonts.google.com/).
 The initial choice of fonts were EB Garamond for body text and Mitr for headings.
@@ -105,7 +106,7 @@ Icons were chosen from the [FontAwesome website](https://fontawesome.com/) using
 Most mages were downloaded from the [Pexels Free Photos website](https://www.pexels.com/search/free/) under the appropriate creative commons copyright licence.
 
 Each photographer was credited using the Figcaption element.
-Where a photo was downloaded form a source other than Pexels, the source was indicated in the relevant figcaption element.
+Where a photo was downloaded from a source other than Pexels, the source was indicated in the relevant figcaption element.
 
 The one image not overtly credited was the hero image in the Enjoy Fire Section:
 ![Enjoy Fire! Hero Image](/assets/images/hero.jpg)
