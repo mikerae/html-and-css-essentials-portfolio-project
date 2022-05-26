@@ -26,6 +26,8 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Progressive Reveal
     + Enjoy Fire Section
     + Light a Fire Section
+    + Tools for Lighting Fire Section
+    + Responsible Firelighting Section
 + [Future Development](#future-development "Future Development")
 + [Technologies Used](#technologies-used "Technologies Used")
 + [Testing](#testing "Testing")
@@ -95,6 +97,7 @@ NB: There is doubt that these provide sufficient contrast and accent  To be revi
 This indeed proved to be the case. The colour 'cornsilk' rgb(255,248,220) was used in 'call-to-action' and responsive elements to provide additional contrast to  the pallet.
 
 ![Cornsilk used in resposive hover action](/assets/images/cornsilk.jpeg)
+
 ### Typography
 Fonts were chosen from the [Google Fonts website](https://fonts.google.com/).
 The initial choice of fonts were EB Garamond for body text and Mitr for headings.
@@ -123,13 +126,20 @@ This photo (No. 344102) was taken by Oleksandr Pidvalnyi and downloaded from the
 ### Navigation Bar and Footer
 #### Navigation Bar
 A navigation bar is fixed to the top of every display screen. This has links to each of the site sections on the right of the navigation bar. The Logo on the right of the navigation bar is linked to the Enjoy Fire! section (home section).
+
 ![Navigation Bar](/assets/images/navbar.png)
+
 For smaller screens where there was insufficient space to display the links, the commonly accepted convention of a  'hamburger menu' was used to reveal the navigation links. The core code for the 'hamburger menu' was copied from https://codepen.io/alvarotrigo/pen/XWejzjR and modified for this project.
+
 ![Hamburger Menu: closed](/assets/images/hamburgermenu-closed.png)
+
 ![Hamburger Menu: open](/assets/images/hamburgermenu-open.png)
+
 The footer is visible at the bottom of each of the two pages i.e. the main content page index.html and the form response page response.html. It contains external links to social media sites. The code for the footer was copied from the Code Institute 'Love Running' module and modified for this project.
 #### Footer
+
 ![Footer](/assets/images/footer.png)
+
 Each navigation and footer element is responsive, i.e. when hovered, the text changes colour to indicate a link.
 The style of the footer and navbar were made consistent using the class '.bar'.
 ### Semantic HTML
@@ -147,15 +157,45 @@ To assist visually impaired users, use of aria-labelledby and aria-label element
 Each section partially reveals the header of the next section, inviting the user to scroll down and explore the site further.
 ### Enjoy Fire Section
 This 'home' or 'landing' section is the first thing a user will see when arriving at the site. It promotes a warm, welcoming, social feeling. The user is progressively drawn into the content of the site using four responsive 'call to action' buttons which briefly describe the contents of the section of the site. These buttons are linked to each of the site sections. At the bottom of the viewed area, the header of the next section is partially revealed.
+
 ![Enjoy Fire Progressive Reveal](/assets/images/enjoy-fire-progressive-reveal.png)
+
 ### Light a Fire Section
 Tips for lighting a fire are found within the artcle in this section.
 Further information is referenced using clearly marked external links.
+
 ![Light a Fire External links](/assets/images/lightfire-external-links.png)
+
 The sections of the articicle were displayed using the Grid Display attribute.
 For larger screens, three columns were used, for medium screens two columns, and for smaller screens, one column. This was achieved using the relevant media query sections in the css file.
 The aside containing the article section buttons is constantly in-view whilst the article is being scrolled through. This was acheived using the 'sticky' display attribute.
-The contents aside is only available for larger screens. The code to not display the aside was used within media querys in the css for smaller screens.
+
 ![Light a Fire Aside](/assets/images/lightfire-aside.png)
+
+The contents aside is only available for larger screens. The code to not display the aside was used within media querys in the css for smaller screens.
+
 The individual sections of this article are linked to call-to-action buttons in the aside. When clicked, the section scrolls to the appropriate section.
+
 ![Light a Fire Aside offset](/assets/images/lightfire-contents-links-header-offset.png)
+
+### Tools for Lighting Fire Section
+In this section, the user is introduced to three entry level fire-lighting tools. For each tool there is an image, a brief description and a call-to-action button inviting the user to buy a tool. The buttons are linked to the relevant areas in the external site for Ray Mears Bushcraft shop, where a fuller description of each tool can be found. If desired, the user may purchase each tool from the external shop. Whilst I have no affiliation to Ray Mears Bushcraft or his shop, I can recommend the site, the  shop and the tools.
+
+For larger screens, three tools are displayed side by side. For medium screens, 
+two are displayed, and for small screens one tool is displayed.
+
+![Tools for firelighting: Large Screens](/assets/images/tools-large.png)
+
+![Tools for firelighting: Medium Screens](/assets/images/tools-medium.png)
+
+![Tools for firelighting: Small Screens](/assets/images/tools-small.png)
+
+### Responsible Firelighting Section
+The main emotional thrust of this section is to invoke a sense that lighting fires responsibly is to be encouraged. This is achieved through the use of a suitable image and the familiar and helpful quotation from Chief Seattle to "Take only Memories, Leave only Footprints".
+Anyone how has tried to achieve this whilst enjoying the countryside will quickly realise that significant thought and effort is required for this to be accomplished. Anyone who has encountered the devastation caused by thoughtless behaviour will readily warm to Chief Seattle's sentiments.
+The three call-to-action buttons take the user to external sits where more in depth information may be found.
+
+![Responsible Fire Lighting](/assets/images/responsible-firelighting.png)
+
+
+
