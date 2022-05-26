@@ -29,6 +29,7 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Tools for Lighting Fire Section
     + Responsible Firelighting Section
     + Stay In Touch Section
+    + Response Page
 + [Future Development](#future-development "Future Development")
 + [Technologies Used](#technologies-used "Technologies Used")
 + [Testing](#testing "Testing")
@@ -207,9 +208,24 @@ The submit button is responsive consisitent with all the other call-to-action bu
 
 Since this project is limited to a static website it is beyond the scope of the project to handle any form data. A simulated server response is created by linking the submit button to a 'Response page' in which the user is thanked for their interaction.
 
-The Stay In Touch section is the last on index.html so this section displys the footer at the bottom.
+The Stay In Touch section is the last on index.html so this section displays the footer at the bottom.
 
-![Stay In Touch](/assets/images/stay-in-touch.png)
+The section for large screens is here:
+
+![Stay In Touch](/assets/images/stay-in-touch-large.png)
+
+For small screens, the user scrolls to the bottom of the section to submit the completed form:
+
+![Stay In Touch Upper](/assets/images/stay-in-touch-small1.png)
+
+![Stay In Touch Lower](/assets/images/stay-in-touch-small2.png)
+
+
+### Response Page
+This as a separate html document and simulates a response from a server uopn reciept of data from the form on the Stay In Touch Section.
+The look and feel are identicle to the Stay In Touch Section. All the navigation links and footer links are consistent with the rest of the site so that the user may intuiatavely choose to return to any part of the site.
+
+
 
 
 
