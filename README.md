@@ -28,6 +28,7 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Light a Fire Section
     + Tools for Lighting Fire Section
     + Responsible Firelighting Section
+    + Stay In Touch Section
 + [Future Development](#future-development "Future Development")
 + [Technologies Used](#technologies-used "Technologies Used")
 + [Testing](#testing "Testing")
@@ -196,6 +197,18 @@ Anyone how has tried to achieve this whilst enjoying the countryside will quickl
 The three call-to-action buttons take the user to external sits where more in depth information may be found.
 
 ![Responsible Fire Lighting](/assets/images/responsible-firelighting.png)
+
+### Stay In Touch Section
+In this section the user is invited to join our community, initially by indicating an interest in staying in touch. There is an optional oportunty to communicate the user's bushcraft interests and sign up for a news letter and information about upcoming events.
+Basic contact information is required to be submitted. If a name input field is not filled in, or if a non-valid email address is entered the user is prompted to properly fill in these fields before the form will be submited.
+
+The name and email fields are responsive in that the background colour changes on-hover.
+The submit button is responsive consisitent with all the other call-to-action buttons on the site.
+
+Since this project is limited to a static website it is beyond the scope of the project to handle any form data. A simulated server response is created by linking the submit button to a 'Response page' in which the user is thanked for their interaction.
+
+![Stay In Touch](/assets/images/stay-in-touch.png)
+
 
 
 
