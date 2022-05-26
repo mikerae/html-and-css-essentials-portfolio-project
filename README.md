@@ -207,6 +207,8 @@ The submit button is responsive consisitent with all the other call-to-action bu
 
 Since this project is limited to a static website it is beyond the scope of the project to handle any form data. A simulated server response is created by linking the submit button to a 'Response page' in which the user is thanked for their interaction.
 
+The Stay In Touch section is the last on index.html so this section displys the footer at the bottom.
+
 ![Stay In Touch](/assets/images/stay-in-touch.png)
 
 
