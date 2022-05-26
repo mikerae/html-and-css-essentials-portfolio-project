@@ -20,6 +20,10 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
         + Icons
         + Images
 + [Implemented Features](#implemented-features "Implemented Features")
+    + Navigation Bar and Footer
+    + Semantic HTML
+    + Aria Provision
+    + Progressive Reveal
 + [Future Development](#future-development "Future Development")
 + [Technologies Used](#technologies-used "Technologies Used")
 + [Testing](#testing "Testing")
@@ -114,7 +118,7 @@ The one image not overtly credited was the hero image in the Enjoy Fire Section:
 This photo (No. 344102) was taken by Oleksandr Pidvalnyi and downloaded from the Pexels website  and used under their creative commons licence.
 
 ## Implemented Features
-### Navigation and Footer
+### Navigation Bar and Footer
 #### Navigation Bar
 A navigation bar is fixed to the top of every display screen. This has links to each of the site sections on the right of the navigation bar. The Logo on the right of the navigation bar is linked to the Enjoy Fire! section (home section).
 ![Navigation Bar](/assets/images/navbar.png)
@@ -126,3 +130,19 @@ The footer is visible at the bottom of each of the two pages i.e. the main conte
 ![Footer](/assets/images/footer.png)
 Each navigation and footer element is responsive, i.e. when hovered, the text changes colour to indicate a link.
 The style of the footer and navbar were made consistent using the class '.bar'.
+### Semantic HTML
+The following semantic html elements were used to facilitate engagement with the site for visually impaired users:
++ Sections: Each of the sections in the site are enclosed in this element. The section h2 element gives the section semantic content.
++ Nav: The elements enclosed in the navbar provide semantic content.
++ Footer: The elements enclosed in the footer provide semantic content.
++ Article: The content of the Light a Fire article are enclosed by this element ant can be understood across the web as a stand-alone unit.
++ Aside: The navigation content links in the Light a Fire section are enclosed in the aside element.
++ Figure: Almost all images are enclosed in the figure element.
++ Figcaption: Where the figure element was used, a figcaption element was used to describe the image.
+### Aria Provision
+To assist visually impaired users, use of aria-labelledby and aria-label elements were used to semantically describe elements whos semantic meaning might otherwise be unclear.
+### Progressive Reveal
+Each section partially reveals the header of the next section, inviting the user to scroll down and explore the site further.
+### Enjoy Fire Section
+This 'home' or 'landing' section is the first thing a user will see when arriving at the site. It promotes a warm, welcoming, social feeling. The user is progressively drawn into the content of the site using four responsive 'call to action' buttons which briefly describe the contents of the section of the site. These buttons are linked to each of the site sections. At the bottom of the viewed area, the header of the next section is partially revealed.
+![Enjoy Fire Progressive Reveal](/assets/images/enjoy-fire-progressive-reveal.png)
