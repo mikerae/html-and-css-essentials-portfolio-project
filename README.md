@@ -31,6 +31,12 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Stay In Touch Section
     + Response Page
 + [Future Development](#future-development "Future Development")
+    + Club Membership Area
+    + Canp Fire Cookout Events
+    + Trainig Meetups
+    + Communtiy Gatherings Gallery
+    + Bug Fixes
+
 + [Technologies Used](#technologies-used "Technologies Used")
 + [Testing](#testing "Testing")
     + Validator Testing
@@ -222,11 +228,21 @@ For small screens, the user scrolls to the bottom of the section to submit the c
 
 
 ### Response Page
-This as a separate html document and simulates a response from a server uopn reciept of data from the form on the Stay In Touch Section.
-The look and feel are identicle to the Stay In Touch Section. All the navigation links and footer links are consistent with the rest of the site so that the user may intuiatavely choose to return to any part of the site.
+This as a separate html document and simulates a response from a server upon receipt of data from the form on the Stay In Touch Section.
+The look and feel are identical to the Stay In Touch Section. All the navigation links and footer links are consistent with the rest of the site so that the user may intuitively choose to return to any part of the site.
 
+![Response Page](/assets/images/response.png)
 
-
-
-
-
+## Future Development
+### Club Membership Area
+Users can become members, and gain secure access to a members area in the site through a Django based authentication.
+Here, there is scope for blog posts and event advertising.
+### Camp Fire Cookout Events
+Social Gatherings advertised on the site, and through the news letter will be held from time to time. Once there is server and database support, users may sign up for and attend these events. This was included in the scope analysis but excluded in the first release.
+### Training Meet-ups
+Interest in particular skill development can be gauges through blog posts and signup forms.
+These events can then be scheduled and advertised, and members can sign up for them. This was included in the scope analysis but excluded in the first release.
+### Community Gatherings Gallery
+Members may post and display their photos of gatherings held. This was included in the scope analysis but excluded in the first release.
+### Bug Fixes
+Currently there are one or two bugs which have yet to be corrected. See the bug section. These will be corrected in a future release.
