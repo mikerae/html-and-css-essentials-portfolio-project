@@ -87,6 +87,7 @@ The Colour Pallet was generated at the [Coolers website](https://coolors.co/pale
 NB: There is doubt that these provide sufficient contrast and accent  To be reviewed in testing.
 
 This indeed proved to be the case. The colour 'cornsilk' rgb(255,248,220) was used in 'call-to-action' and responsive elements to provide additional contrast to  the pallet.
+
 ![Cornsilk used in resposive hover action](/assets/images/cornsilk.jpeg)
 ### Typography
 Fonts were chosen from the [Google Fonts website](https://fonts.google.com/).

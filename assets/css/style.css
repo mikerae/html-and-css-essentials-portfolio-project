@@ -615,17 +615,42 @@ a.tools {
     /* end of copied code */
 
     /* Enjoy Fire Section (small screen) */
+    #enjoy-fire-content-wrapper {
+        margin-top: 50px;
+        display: flex block;
+    }
+    
     #hero-image-wrapper {
         order: 1;
         border-radius: 0;
-        width: 100vw;
-        height: 40rem;
+        width: 500px;
+        height: 300px;
     }
 
     #hero-img {
-        width: 42rem;
-        object-position: -5rem -6rem;
+        width: 500px;
+        object-position: -20px -30px;
         object-fit: cover;
+    }
+
+    .enjoy-fire-items {
+        padding-top: 5px;
+    }
+
+    .enjoy-fire-items p {
+        font-size: 0.7em;
+    }
+
+    #enjoy-fire-items-left > div, #enjoy-fire-items-right > div {
+        padding-top: 0px;
+    }
+
+    #enjoy-fire-items-left {
+        padding: 0 30px;
+    }
+    
+    #enjoy-fire-items-right {
+        padding: 0 30px;
     }
 
     /* Light Fire Section small screen) */
