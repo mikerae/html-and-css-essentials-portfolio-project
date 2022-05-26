@@ -24,6 +24,8 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Semantic HTML
     + Aria Provision
     + Progressive Reveal
+    + Enjoy Fire Section
+    + Light a Fire Section
 + [Future Development](#future-development "Future Development")
 + [Technologies Used](#technologies-used "Technologies Used")
 + [Testing](#testing "Testing")
@@ -146,3 +148,14 @@ Each section partially reveals the header of the next section, inviting the user
 ### Enjoy Fire Section
 This 'home' or 'landing' section is the first thing a user will see when arriving at the site. It promotes a warm, welcoming, social feeling. The user is progressively drawn into the content of the site using four responsive 'call to action' buttons which briefly describe the contents of the section of the site. These buttons are linked to each of the site sections. At the bottom of the viewed area, the header of the next section is partially revealed.
 ![Enjoy Fire Progressive Reveal](/assets/images/enjoy-fire-progressive-reveal.png)
+### Light a Fire Section
+Tips for lighting a fire are found within the artcle in this section.
+Further information is referenced using clearly marked external links.
+![Light a Fire External links](/assets/images/lightfire-external-links.png)
+The sections of the articicle were displayed using the Grid Display attribute.
+For larger screens, three columns were used, for medium screens two columns, and for smaller screens, one column. This was achieved using the relevant media query sections in the css file.
+The aside containing the article section buttons is constantly in-view whilst the article is being scrolled through. This was acheived using the 'sticky' display attribute.
+The contents aside is only available for larger screens. The code to not display the aside was used within media querys in the css for smaller screens.
+![Light a Fire Aside](/assets/images/lightfire-aside.png)
+The individual sections of this article are linked to call-to-action buttons in the aside. When clicked, the section scrolls to the appropriate section.
+![Light a Fire Aside offset](/assets/images/lightfire-contents-links-header-offset.png)
