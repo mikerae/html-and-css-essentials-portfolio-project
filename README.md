@@ -32,11 +32,10 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Response Page
 + [Future Development](#future-development "Future Development")
     + Club Membership Area
-    + Canp Fire Cookout Events
-    + Trainig Meetups
-    + Communtiy Gatherings Gallery
+    + Camp Fire Cookout Events
+    + Training Meet-ups
+    + Community Gatherings Gallery
     + Bug Fixes
-
 + [Technologies Used](#technologies-used "Technologies Used")
 + [Testing](#testing "Testing")
     + Validator Testing
@@ -246,3 +245,4 @@ These events can then be scheduled and advertised, and members can sign up for t
 Members may post and display their photos of gatherings held. This was included in the scope analysis but excluded in the first release.
 ### Bug Fixes
 Currently there are one or two bugs which have yet to be corrected. See the bug section. These will be corrected in a future release.
+
