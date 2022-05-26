@@ -112,3 +112,17 @@ Where a photo was downloaded from a source other than Pexels, the source was ind
 The one image not overtly credited was the hero image in the Enjoy Fire Section:
 ![Enjoy Fire! Hero Image](/assets/images/hero.jpg)
 This photo (No. 344102) was taken by Oleksandr Pidvalnyi and downloaded from the Pexels website  and used under their creative commons licence.
+
+## Implemented Features
+### Navigation and Footer
+#### Navigation Bar
+A navigation bar is fixed to the top of every display screen. This has links to each of the site sections on the right of the navigation bar. The Logo on the right of the navigation bar is linked to the Enjoy Fire! section (home section).
+![Navigation Bar](/assets/images/navbar.png)
+For smaller screens where there was insufficient space to display the links, the commonly accepted convention of a  'hamburger menu' was used to reveal the navigation links. The core code for the 'hamburger menu' was copied from https://codepen.io/alvarotrigo/pen/XWejzjR and modified for this project.
+![Hamburger Menu: closed](/assets/images/hamburgermenu-closed.png)
+![Hamburger Menu: open](/assets/images/hamburgermenu-open.png)
+The footer is visible at the bottom of each of the two pages i.e. the main content page index.html and the form response page response.html. It contains external links to social media sites. The code for the footer was copied from the Code Institute 'Love Running' module and modified for this project.
+#### Footer
+![Footer](/assets/images/footer.png)
+Each navigation and footer element is responsive, i.e. when hovered, the text changes colour to indicate a link.
+The style of the footer and navbar were made consistent using the class '.bar'.
