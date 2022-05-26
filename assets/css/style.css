@@ -619,17 +619,17 @@ a.tools {
         margin-top: 50px;
         display: flex block;
     }
-    
+
     #hero-image-wrapper {
         order: 1;
         border-radius: 0;
-        width: 500px;
-        height: 300px;
+        width: 400px;
+        height: 230px;
     }
 
     #hero-img {
         width: 500px;
-        object-position: -20px -30px;
+        object-position: -25px -100px;
         object-fit: cover;
     }
 
