@@ -624,12 +624,12 @@ a.tools {
         order: 1;
         border-radius: 0;
         width: 400px;
-        height: 230px;
+        height: 190px;
     }
 
     #hero-img {
-        width: 500px;
-        object-position: -25px -100px;
+        width: 400px;
+        object-position: -15px -70px;
         object-fit: cover;
     }
 
