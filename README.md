@@ -366,8 +366,53 @@ Figure caption bleeds into Stay in touch section
 Class content-right-wrapper was adjusted to reduce height of image/figure.
 ##### Phones in Landcape
 Formatting does not currently work. This is now an unresovled 'known issue'.
+#### Validator Testing
+##### Lighthouse
+The following errors were revealed through Lighhouse testing.
++ Background and foreground colors do not have a sufficient contrast ratio.
+    + The call-to-action class was change to remove this issue.
++ Failing Elements
+    h2.call-to-action
+    h2.call-to-action
+    h2.call-to-action
+    h2.call-to-action
+    button.tools.call-to-action
+    button.tools.call-to-action
+    button.tools.call-to-action
+    button.call-to-action
+    button.call-to-action
+    button.call-to-action
+    input#submit.items-group.button.call-to-action
+    + html structure was changed to remove these errors.
++ Form elements do not have associated labels:
+    + Failing Elements: input
+    + Labels were given to inputs to resolve this issue.
+##### W3C CSS Validator
++ 153		Value Error : display flexbox is not a display value : flexbox
+    + replace by : flex block
++ 253	inline-flex	Value Error : display inline-flexbox is not a display value : inline-flexbox
+    + replace by : inline-flex block
++ 261	contain	fit is not a object-fit value : fit
+    + replace by : fill
++ 627	flex block	Value Error : display flexbox is not a display value : flexbox
+    + replace by : flex block
+
++ area-label="This link takes you to the section called Light a Fire"
+
++ Error: Attribute area-label not allowed on element a at this point.
+    From line 38, column 26; to line 38, column 113
+```
+    <a href="#tools" area-label="This link takes you to the Tools for Fire Lighting section">Tools<
+
+    There were multiple examples of this error.
+    The solution was to use aria-labelledby in the parent element.
+```
 
 
-
+## Credits
+### Content
++ Whilst the content is mine, the infuence of Ray Mears is gratefully aknowlegded.
+His Bushcraft sight can by found [here](https://www.raymears.com/).
++ Firewood Lay by [Connor Fitzgerald](https://www.cabinlife.com/articles/the-5-best-campfire-lays-and-how-to-build-them).
 
 
