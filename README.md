@@ -348,7 +348,7 @@ CSS targeting the img element provided a solution.
 ### Header offset for internal links
 Initially, the top of a linked section was obscured by the fixed nav bar. The source links in question were in the Lightfire aside Contents. This was resolved by applying an appropriate offset to the target equivalent to the height off the nav bar. This varies with screen size, so offsets were applied within media queries. The solution to this issue is credited to  Hrvoje Miljak/ Stack Overflow.
     Hrvoje Miljak's  solution is as follows:
-    ```
+```
     html
     <a class="anchor" ></a>
 
@@ -359,7 +359,7 @@ Initially, the top of a linked section was obscured by the fixed nav bar. The so
         top: -250px;
         visibility: hidden;
     }
-    ```
+```
 After testing and correction, no issues were found.
 ### Font Change
 It was suggested to change the body front from 'EB Garamond' to 'Roboto'.
