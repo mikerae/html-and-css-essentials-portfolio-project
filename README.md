@@ -40,7 +40,7 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
 + [Testing and Resulting Issues](#testing-and-resulting-issues "Testing and Resulting Issues")
     + Human Testing
     + Validator Testing
-    + Lighthouse
+    + Lighthouse Accessibility Testing
 
 + [Known Issues](#known-issues "Known Issues")
 + [Development and Deployment](#development-and-deployment "Development and Deployment")
@@ -257,25 +257,13 @@ Currently there are one or two bugs which have yet to be corrected. See the know
 + All external links were tested manually to verify that they were live and that they all opened in a new browser tab or window.
 No issues were found.
 + All internal links were tested manually.
-    + Initially, the top of a linked section was obscured by the fixed nav bar. The source links in question were in the Lightfire aside Contents. This was resolved by applying an appropriate offset to the target equivalent to the height off the nav bar. This varies with screen size, so offsets were applied within media queries. The solution to this issue is credited to  Hrvoje Miljak/ Stack Overflow.
-    Hrvoje Miljak's  solution is as follows:
-    ```
-    html
-    <a class="anchor" ></a>
-
-    css 
-    a.anchor {
-        display: block;
-        position: relative;
-        top: -250px;
-        visibility: hidden;
-    }
-    ```
-    + After testing and correction, no issues were found.
-#### Font Change
-+ It was suggested to change the body front from 'EB Garamond' to 'Roboto'.
-#### Light a Fire Aside menu clarity
-+ Feedback from Sarah, Emily and Annabel suggested improved clarity for the Light a fire Aside menu. This was implemented by separating the elements a little.
+After development, no issues were found.
+#### Consultation and feedback
+The site was reviewed by the four people and their feedback influenced the development of the project. I thank and gratefully acknowledge the feedback from the following people:
++ Martina Terlevic : Mentor Code Institute
++ Sarah
++ Emily
++ Annabel
 ### Validator Testing
 #### W3 HTML Validator
 The HTML code was validated using the W3 HTML validator and passed with no issues.
@@ -302,4 +290,5 @@ The site passed the Lighthouse accessibility validator in both Desktop and Mobil
 ![Lighthouse index.html Mobile](/assets/images/lighthouse-index-mobile-validator.png)
 
 ![Lighthouse response.html Mobile](/assets/images/lighthouse-response-mobile-validator.png)
+
 
