@@ -113,7 +113,7 @@ NB: There is doubt that these provide sufficient contrast and accent  To be revi
 
 This indeed proved to be the case. The colour 'cornsilk' rgb(255,248,220) was used in 'call-to-action' and responsive elements to provide additional contrast to  the pallet.
 
-![Cornsilk used in resposive hover action](/assets/images/cornsilk.jpeg)
+![Cornsilk used in responsive hover action](/assets/images/cornsilk.jpeg)
 
 ### Typography
 Fonts were chosen from the [Google Fonts website](https://fonts.google.com/).
@@ -169,7 +169,7 @@ The following semantic html elements were used to facilitate engagement with the
 + Figure: Almost all images are enclosed in the figure element.
 + Figcaption: Where the figure element was used, a figcaption element was used to describe the image.
 ## Aria Provision
-To assist visually impaired users, use of aria-labelledby and aria-label elements were used to semantically describe elements whos semantic meaning might otherwise be unclear.
+To assist visually impaired users, use of aria-labelledby and aria-label elements were used to semantically describe elements who’s semantic meaning might otherwise be unclear.
 ## Progressive Reveal
 Each section partially reveals the header of the next section, inviting the user to scroll down and explore the site further.
 ## Enjoy Fire Section
@@ -183,13 +183,13 @@ Further information is referenced using clearly marked external links.
 
 ![Light a Fire External links](/assets/images/lightfire-external-links.png)
 
-The sections of the articicle were displayed using the Grid Display attribute.
+The sections of the article were displayed using the Grid Display attribute.
 For larger screens, three columns were used, for medium screens two columns, and for smaller screens, one column. This was achieved using the relevant media query sections in the css file.
-The aside containing the article section buttons is constantly in-view whilst the article is being scrolled through. This was acheived using the 'sticky' display attribute.
+The aside containing the article section buttons is constantly in-view whilst the article is being scrolled through. This was achieved using the 'sticky' display attribute.
 
 ![Light a Fire Aside](/assets/images/lightfire-aside.png)
 
-The contents aside is only available for larger screens. The code to not display the aside was used within media querys in the css for smaller screens.
+The contents aside is only available for larger screens. The code to not display the aside was used within media queries in the css for smaller screens.
 
 The individual sections of this article are linked to call-to-action buttons in the aside. When clicked, the section scrolls to the appropriate section.
 
@@ -215,11 +215,11 @@ The three call-to-action buttons take the user to external sits where more in de
 ![Responsible Fire Lighting](/assets/images/responsible-firelighting.png)
 
 ## Stay In Touch Section
-In this section the user is invited to join our community, initially by indicating an interest in staying in touch. There is an optional oportunty to communicate the user's bushcraft interests and sign up for a news letter and information about upcoming events.
-Basic contact information is required to be submitted. If a name input field is not filled in, or if a non-valid email address is entered the user is prompted to properly fill in these fields before the form will be submited.
+In this section the user is invited to join our community, initially by indicating an interest in staying in touch. There is an optional opportunity to communicate the user's bushcraft interests and sign up for a news letter and information about upcoming events.
+Basic contact information is required to be submitted. If a name input field is not filled in, or if a non-valid email address is entered the user is prompted to properly fill in these fields before the form will be submitted.
 
 The name and email fields are responsive in that the background colour changes on-hover.
-The submit button is responsive consisitent with all the other call-to-action buttons on the site.
+The submit button is responsive consistent with all the other call-to-action buttons on the site.
 
 Since this project is limited to a static website it is beyond the scope of the project to handle any form data. A simulated server response is created by linking the submit button to a 'Response page' in which the user is thanked for their interaction.
 
@@ -340,9 +340,9 @@ The chosen pallet did not have good accents. The accent colour 'cornsilk' rgb(25
 For internal page navigation , without using java script, it is not possible to set the ‘active’ status of a link, since this is hard-coded into the html of each linked page.
 The work around was to not have an active status, but have an ‘onHover’ indicator , and rely on the user taking note of the clear headers to show where in the document they are.
 ### Responsive screen size reduction
-There were muliple issues relating to making the site responsive to different screen sizes. Some of these were:
+There were multiple issues relating to making the site responsive to different screen sizes. Some of these were:
 #### Images display 
-Images (particulaly the hero image) does not stay still as viewport reduces. Their position, aspect and dimensions woudld change in unwanted ways. This was resoved by careful use of relative and absolute units of measurment. 
+Images (particularly the hero image) does not stay still as viewport reduces. Their position, aspect and dimensions would change in unwanted ways. This was resolved by careful use of relative and absolute units of measurement. 
 ### All images need a constant border radius 
 CSS targeting the img element provided a solution.
 ### Header offset for internal links
@@ -404,10 +404,10 @@ The following errors were revealed through Lighhouse testing.
     The solution was to use aria-labelledby in the parent element.
 # Credits
 ## Content
-+ Whilst the content is mine, the infuence of Ray Mears is gratefully aknowlegded.
++ Whilst the content is mine, the influence of Ray Mears is gratefully acknowledged.
 His Bushcraft sight can by found [here](https://www.raymears.com/).
 + Firewood Lay by Connor Fitzgerald https://www.cabinlife.com/articles/the-5-best-campfire-lays-and-how-to-build-them).
-+ The Complete Guide to Batoning https://morethanjustsurviving.com/batoning/
++ The Complete Guide to Battening https://morethanjustsurviving.com/batoning/
 + Ray Mears Bushcraft Shop https://www.raymears.com/Bushcraft_Products/
 + The Countryside Code https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1052574/Countryside_Code_A5.pdf
 + UK Law: Firelighting https://www.gov.uk/government/publications/the-countryside-code\
@@ -421,7 +421,7 @@ His Bushcraft sight can by found [here](https://www.raymears.com/).
 + https://www.pexels.com/photo/
 + people-sitting-in-front-of-bonfire-in-desert-during-nighttime-1703314/
 + pexels-ivan-samkov-9630140
-### The follwoing images were used from other sites
+### The following images were used from other sites
 + https://morethanjustsurviving.com/batoning/
 + https://www.cabinlife.com/articles/the-5-best-campfire-lays-and-how-to-build-them
 ### The following images were used from the Ray Mears Bushcraft Shop
@@ -443,7 +443,3 @@ Feedback was gratefully received and played a significant part in the developmen
 
 Mike Rae
 28/05/2022
-
-
-
-
