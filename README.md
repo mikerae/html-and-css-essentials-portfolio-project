@@ -250,6 +250,9 @@ Currently there are one or two bugs which have yet to be corrected. See the know
 ## Technologies Used
 + HTML5
 + CSS3
++ IDE: The project was created in GitPod and demonstrates rudimentary competence in its use.
++ Version Control: the project used Git to generate a 'Commit History'
++ The project was pushed to GitHub sequentially.
 
 ## Testing and Resulting Issues
 ### Human Testing
@@ -293,6 +296,20 @@ The site passed the Lighthouse accessibility validator in both Desktop and Mobil
 
 ## Known Issues
 + The layout for small screens (mobile phones) in landscape mode is not correctly formatted. There was not sufficient time to make this correction before the project deadline. The formatting is acceptable for small screens in portrait mode. It was therefore decided to proceed to release in this minimum viable version.
+
+## Development and Deployment
+### IDE
+The project was created in GitPod and demonstrates rudimentary competence in its use.
+### Version Control
+The project used Git to generate a 'Commit History'.
+### GitHub
+The project was pushed to GitHub sequentially.
+### GitHub Pages
+The project was deployed to the internet for viewing by the public using GitHub pages.
+A live version of the Enjoy Fire! website can be found here - https://mikerae.github.io/html-and-css-essentials-portfolio-project/
+
+### Development Issues
+
 
 
 
