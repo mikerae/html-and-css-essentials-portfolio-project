@@ -44,6 +44,8 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + GitHub
 + [Testing and Resulting Issues](#testing-and-resulting-issues "Testing and Resulting Issues")
     + Human Testing
+    + Developer Tools
+    + Amiresponsive site
     + Validator Testing
     + Lighthouse Accessibility Testing
 + [Known Issues](#known-issues "Known Issues")
@@ -152,8 +154,8 @@ For smaller screens where there was insufficient space to display the links, the
 
 ![Hamburger Menu: open](/assets/images/hamburgermenu-open.png)
 
-The footer is visible at the bottom of each of the two pages i.e. the main content page index.html and the form response page response.html. It contains external links to social media sites. The code for the footer was copied from the Code Institute 'Love Running' module and modified for this project.
 ### Footer
+The footer is visible at the bottom of each of the two pages i.e. the main content page index.html and the form response page response.html. It contains external links to social media sites. The code for the footer was copied from the Code Institute 'Love Running' module and modified for this project.
 
 ![Footer](/assets/images/footer.png)
 
@@ -169,7 +171,7 @@ The following semantic html elements were used to facilitate engagement with the
 + Figure: Almost all images are enclosed in the figure element.
 + Figcaption: Where the figure element was used, a figcaption element was used to describe the image.
 ## Aria Provision
-To assist visually impaired users, use of aria-labelledby and aria-label elements were used to semantically describe elements who’s semantic meaning might otherwise be unclear.
+To assist visually impaired users, use of aria-labelledby and aria-label elements were used to describe elements who’s meaning might otherwise be unclear.
 ## Progressive Reveal
 Each section partially reveals the header of the next section, inviting the user to scroll down and explore the site further.
 ## Enjoy Fire Section
@@ -277,6 +279,8 @@ The site was reviewed by the four people and their feedback influenced the devel
 + Annabel
 ### Google Chrome Browser Developer Tools: Responsive Layout
 Google Chrome Browser Developer Tools were used to develop and test various screen size layouts.
+### Amiresponsive Site
+The site amiresponsive https://ui.dev/amiresponsive was used to test the responsiveness of the site. The image at the top of this readme.md file was generated from this site and demonstrates that the site is indeed responsive.
 ## Validator Testing
 ### W3 HTML Validator
 The HTML code was validated using the W3 HTML validator and passed with no issues.
@@ -326,23 +330,19 @@ Throughout the development process, external resources were used. The following 
 ## Development Issues
 A variety of developmental issues were encountered throughout this project, from design through to final deployment. Here are some of them.
 ### UXD: Wire Framing
-### Fire Image as header
+##€# Fire Image as header
 A fire image used as a background in the navbar was too distracting. It was replaced by a solid colour.
-### Hero image: Home Page
+#### Hero image: Home Page
 Initially a hero image of a fire was used but the colour palette was not suitable. This was replaced with the 'Memories' image.
-### Using  one image in the the Enjoy Fire Section
+#### Using  one image in the the Enjoy Fire Section
 To reduce clutter and conflicting messages, only one image was used on the home page.
-### Use of Popup Boxes with images and further progressively revealed contents
+#### Use of Popup Boxes with images and further progressively revealed contents
 Popup Boxes were intended to be used to reduce clutter and too much information on the Home Page.The  boxes would appear on hover over key contents signposts to further invite the user to explore deeper into the site. The contents of the popup box signpost would progressively reveal more  contents of that particular area of the site. It was decided that implementation of this feature was beyond the scope of this project for this minimum viable release.
-### Colour Pallet UXD surface
+#### Colour Pallet UXD surface
 The chosen pallet did not have good accents. The accent colour 'cornsilk' rgb(255,248,220) was introduced at the design stage to provide an initial solution.
 ### Nav Bar elements don’t show Active Status
 For internal page navigation , without using java script, it is not possible to set the ‘active’ status of a link, since this is hard-coded into the html of each linked page.
 The work around was to not have an active status, but have an ‘onHover’ indicator , and rely on the user taking note of the clear headers to show where in the document they are.
-### Responsive screen size reduction
-There were multiple issues relating to making the site responsive to different screen sizes. Some of these were:
-#### Images display 
-Images (particularly the hero image) does not stay still as viewport reduces. Their position, aspect and dimensions would change in unwanted ways. This was resolved by careful use of relative and absolute units of measurement. 
 ### All images need a constant border radius 
 CSS targeting the img element provided a solution.
 ### Header offset for internal links
@@ -368,6 +368,8 @@ Feedback from Sarah, Emily and Annabel suggested improved clarity for the Light 
 ### Responsive Layout
 The majority of development issues arose here. The following
 issues were encountered and addressed:
+#### Images display 
+Images (particularly the hero image) does not stay still as viewport reduces. Their position, aspect and dimensions would change in unwanted ways. This was resolved by careful use of relative and absolute units of measurement. 
 #### Hamburger Menu
 For very small screens, the navbar menu items would not fit.
 The solution in principle was provided by my mentor Martina Terlevic: to use 'hamburger menus'. The initial code for this solution was copied from https://codepen.io/alvarotrigo/pen/XWejzjR and then modified for this project.
