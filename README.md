@@ -211,7 +211,7 @@ two are displayed, and for small screens one tool is displayed.
 
 ## Responsible Firelighting Section
 The main emotional thrust of this section is to invoke a sense that lighting fires responsibly is to be encouraged. This is achieved through the use of a suitable image and the familiar and helpful quotation from Chief Seattle to "Take only Memories, Leave only Footprints".
-Anyone how has tried to achieve this whilst enjoying the countryside will quickly realise that significant thought and effort is required for this to be accomplished. Anyone who has encountered the devastation caused by thoughtless behaviour will readily warm to Chief Seattle's sentiments.
+Anyone who has tried to achieve this whilst enjoying the countryside will quickly realise that significant thought and effort is required for this to be accomplished. Anyone who has encountered the devastation caused by thoughtless behaviour will readily warm to Chief Seattle's sentiments.
 The three call-to-action buttons take the user to external sits where more in depth information may be found.
 
 ![Responsible Fire Lighting](/assets/images/responsible-firelighting.png)
@@ -330,7 +330,7 @@ Throughout the development process, external resources were used. The following 
 ## Development Issues
 A variety of developmental issues were encountered throughout this project, from design through to final deployment. Here are some of them.
 ### UXD: Wire Framing
-##€# Fire Image as header
+#### Fire Image as header
 A fire image used as a background in the navbar was too distracting. It was replaced by a solid colour.
 #### Hero image: Home Page
 Initially a hero image of a fire was used but the colour palette was not suitable. This was replaced with the 'Memories' image.
