@@ -63,15 +63,15 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
 # User Experience Design
 
 ## Strategy
-Stakeholder Stories
+### Stakeholder Stories
 
-### Users
+#### Users
 Users want to find information on how to light a fire.
 They want to develop their firelighting skills, to use their firelighting skills, to meet with like-minded people and enjoy using their skills together.
-### Site Owner
+#### Site Owner
 The Site Owner would like to provide and promote responsible firelighting knowledge, to promote training in firelighting techniques and to promote enjoyment of and respect for the outdoors.
 
-### Wider Members of the Community
+#### Wider Members of the Community
 Members of the Wider Community would like to prevent damage to land and property, and to promote responsible enjoyment of the countryside.
 
 ## Scope
@@ -330,7 +330,7 @@ A variety of developmental issues were encountered throughout this project, from
 A fire image used as a background in the navbar was too distracting. It was replaced by a solid colour.
 ### Hero image: Home Page
 Initially a hero image of a fire was used but the colour palette was not suitable. This was replaced with the 'Memories' image.
-### Using  one image the Home page
+### Using  one image in the the Enjoy Fire Section
 To reduce clutter and conflicting messages, only one image was used on the home page.
 ### Use of Popup Boxes with images and further progressively revealed contents
 Popup Boxes were intended to be used to reduce clutter and too much information on the Home Page.The  boxes would appear on hover over key contents signposts to further invite the user to explore deeper into the site. The contents of the popup box signpost would progressively reveal more  contents of that particular area of the site. It was decided that implementation of this feature was beyond the scope of this project for this minimum viable release.
