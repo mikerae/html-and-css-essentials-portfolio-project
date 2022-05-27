@@ -291,4 +291,8 @@ The site passed the Lighthouse accessibility validator in both Desktop and Mobil
 
 ![Lighthouse response.html Mobile](/assets/images/lighthouse-response-mobile-validator.png)
 
+## Known Issues
++ The layout for small screens (mobile phones) in landscape mode is not correctly formatted. There was not sufficient time to make this correction before the project deadline. The formatting is acceptable for small screens in portrait mode. It was therefore decided to proceed to release in this minimum viable version.
+
+
 
