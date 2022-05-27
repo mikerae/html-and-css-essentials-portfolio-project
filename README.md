@@ -37,10 +37,11 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Community Gatherings Gallery
     + Bug Fixes
 + [Technologies Used](#technologies-used "Technologies Used")
-+ [Testing](#testing "Testing")
++ [Testing: And Related Bug Issues](#testing-and-related-bugs "Testing and Related Bugs")
+    + Human Testing
     + Validator Testing
     + Lighthouse
-    + Human Testing
+
 + [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
 + [Development and Deployment](#development-and-deployment "Development and Deployment")
 + [Credits](#credits "Credits")
@@ -132,7 +133,7 @@ This photo (No. 344102) was taken by Oleksandr Pidvalnyi and downloaded from the
 ## Implemented Features
 ### Navigation Bar and Footer
 #### Navigation Bar
-A navigation bar is fixed to the top of every display screen. This has links to each of the site sections on the right of the navigation bar. The Logo on the right of the navigation bar is linked to the Enjoy Fire! section (home section).
+A navigation bar is fixed to the top of every display screen. This has links to each of the site sections on the right of the navigation bar. The Logo on the left of the navigation bar is linked to the Enjoy Fire! section (home section).
 
 ![Navigation Bar](/assets/images/navbar.png)
 
@@ -245,4 +246,19 @@ These events can then be scheduled and advertised, and members can sign up for t
 Members may post and display their photos of gatherings held. This was included in the scope analysis but excluded in the first release.
 ### Bug Fixes
 Currently there are one or two bugs which have yet to be corrected. See the bug section. These will be corrected in a future release.
+
+## Technologies Used
++ HTML5
++ CSS3
+
+## Testing and Related Bugs
+### Human Testing
+#### Links
++ All external links were tested manually to verify that they were live and that they all opened in a new browser tab or window.
+No issues were found.
++ All internal links were tested manually.
+    + Initially, the top of a linked section was obscured by the fixed nav bar. This was resolved by applying an appropriate offset to the target equivalent to the height off the nav bar. This varies with screen size, so offsets were applied within media queries.
+    + After testing and correction, no issues were found.
+
+
 
