@@ -37,6 +37,11 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Community Gatherings Gallery
     + Bug Fixes
 + [Technologies Used](#technologies-used "Technologies Used")
+    + HTML5
+    + CSS3
+    + GitPod and demonstrates rudimentary competence in its use.
+    + Git
+    + GitHub
 + [Testing and Resulting Issues](#testing-and-resulting-issues "Testing and Resulting Issues")
     + Human Testing
     + Validator Testing
@@ -54,7 +59,6 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     - Media
     - Code
     - Feedback
-+ [External Resources](#external-resources "External Resources")
 
 # User Experience Design
 
@@ -402,6 +406,44 @@ The following errors were revealed through Lighhouse testing.
 ## Content
 + Whilst the content is mine, the infuence of Ray Mears is gratefully aknowlegded.
 His Bushcraft sight can by found [here](https://www.raymears.com/).
-+ Firewood Lay by [Connor Fitzgerald](https://www.cabinlife.com/articles/the-5-best-campfire-lays-and-how-to-build-them).
++ Firewood Lay by Connor Fitzgerald https://www.cabinlife.com/articles/the-5-best-campfire-lays-and-how-to-build-them).
++ The Complete Guide to Batoning https://morethanjustsurviving.com/batoning/
++ Ray Mears Bushcraft Shop https://www.raymears.com/Bushcraft_Products/
++ The Countryside Code https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1052574/Countryside_Code_A5.pdf
++ UK Law: Firelighting https://www.gov.uk/government/publications/the-countryside-code\
++ Ray Mears essential Bushcraft https://www.raymears.com/Bushcraft_Product/164-Ray-Mears-Essential-Bushcraft-Signed-Copy/
+## Media
+### The following images were used from the Pexels website:
++ https://www.pexels.com/photo/two-women-sitting-on-ground-near-bonfire-344102/
++ https://www.pexels.com/photo/burning-wood-on-fire-pit-4316833/
++ https://www.pexels.com/photo/funny-kid-with-firewood-walking-in-yard-3849955/
++ https://www.pexels.com/photo/person-curving-wood-167708/
++ https://www.pexels.com/photo/
++ people-sitting-in-front-of-bonfire-in-desert-during-nighttime-1703314/
++ pexels-ivan-samkov-9630140
+### The follwoing images were used from other sites
++ https://morethanjustsurviving.com/batoning/
++ https://www.cabinlife.com/articles/the-5-best-campfire-lays-and-how-to-build-them
+### The following images were used from the Ray Mears Bushcraft Shop
++ https://www.raymears.com/Bushcraft_Product/952-Morakniv-Companion-Heavy-Duty-MG-Knife/
++ https://www.raymears.com/Bushcraft_Product/76-Ray-Mears-Fire-Stick/
++ https://www.raymears.com/Bushcraft_Product/73-Bahco-Laplander-Folding-Saw/
+## Code
+All copied and modified code is clearly marked with comments in both html and css files.
++ Footer code was copied and modified from the Love Running Project: Code Institute
++ Hamburger Menu code was copied and modified from https://codepen.io/alvarotrigo/pen/XWejzjR 
++ Lightfire aside Contents link position offset adjusting for navbar.
+Solution from Hrvoje Miljak - Stack Overflow
+## Feedback
+Feedback was gratefully received and played a significant part in the development of this project. Contributors were:
++ Martina Terlevic: Mentor - Code Institute
++ Sarah
++ Emily
++ Annabel
+
+Mike Rae
+28/05/2022
+
+
 
 
