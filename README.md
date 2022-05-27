@@ -276,7 +276,30 @@ No issues were found.
 + It was suggested to change the body front from 'EB Garamond' to 'Roboto'.
 #### Light a Fire Aside menu clarity
 + Feedback from Sarah, Emily and Annabel suggested improved clarity for the Light a fire Aside menu. This was implemented by separating the elements a little.
+### Validator Testing
+#### W3 HTML Validator
+The HTML code was validated using the W3 HTML validator and passed with no issues.
 
+![index.html Validation](/assets/images/w3-index-html-validator.png)
 
+![response.html Validation](/assets/images/w3-response-html-validator.png)
 
+#### W3 CSS Validator
+The CSS code was validated using the W3 CSS validator and passed with no issues.
+
+![CSS Validation](/assets/images/w3c-css-validator.png)
+
+#### Lighthouse Accessibility Validator
+The site passed the Lighthouse accessibility validator in both Desktop and Mobile modes.
+##### Desktop Mode
+
+![Lighthouse index.html Desktop](/assets/images/lighthouse-index-desktop-validator.png)
+
+![Lighthouse response.html Desktop](/assets/images/lighthouse.response-desktop-validator.png)
+
+##### Mobile Mode
+
+![Lighthouse index.html Mobile](/assets/images/lighthouse-index-mobile-validator.png)
+
+![Lighthouse response.html Mobile](/assets/images/lighthouse-response-mobile-validator.png)
 
