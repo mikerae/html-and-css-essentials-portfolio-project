@@ -368,16 +368,16 @@ Feedback from Sarah, Emily and Annabel suggested improved clarity for the Light 
 ### Responsive Layout
 The majority of development issues arose here. The following
 issues were encountered and addressed:
-### Hamburger Menu
+#### Hamburger Menu
 For very small screens, the navbar menu items would not fit.
 The solution in principle was provided by my mentor Martina Terlevic: to use 'hamburger menus'. The initial code for this solution was copied from https://codepen.io/alvarotrigo/pen/XWejzjR and then modified for this project.
-### Navbar height for mid-range screens
+#### Navbar height for mid-range screens
 For screens in the tablet or mid-range screens, the text in the navbar would jump to two lines at the lower end of the range.
 This was resolved by having an upper and lower midrange category of media query with adjusted css in the lower category to double the height of the navbar to accommodate the 2 lines for menu text. All related section css dimensions and offsets in this category were adjusted.
-### Responsible Fire Section
+#### Responsible Fire Section
 Figure caption bleeds into Stay in touch section
 Class content-right-wrapper was adjusted to reduce height of image/figure.
-### Phones in Landcape
+#### Phones in Landcape
 Formatting does not currently work. This is now an unresovled 'known issue'.
 ### Validator Testing
 #### Lighthouse
