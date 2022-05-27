@@ -309,6 +309,8 @@ The project was deployed to the internet for viewing by the public using GitHub 
 A live version of the Enjoy Fire! website can be found here - https://mikerae.github.io/html-and-css-essentials-portfolio-project/
 
 ### Development Issues
+A variety of developmental issues were encountered throughout this project, from design through to final deployment. Here are some of them.
+
 
 
 
