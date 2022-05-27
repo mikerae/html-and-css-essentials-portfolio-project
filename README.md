@@ -267,6 +267,8 @@ The site was reviewed by the four people and their feedback influenced the devel
 + Sarah
 + Emily
 + Annabel
+#### Google Chrome Browser Developer Tools: Responsive Layout
+Google Chrome Browser Developer Tools were used to develop and test various screen size layouts.
 ### Validator Testing
 #### W3 HTML Validator
 The HTML code was validated using the W3 HTML validator and passed with no issues.
@@ -310,6 +312,60 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
 
 ### Development Issues
 A variety of developmental issues were encountered throughout this project, from design through to final deployment. Here are some of them.
+####UXD: Wire Framing
+#### Fire Image as header
+A fire image used as a background in the navbar was too distracting. It was replaced by a solid colour.
+#### Hero image: Home Page
+Initially a hero image of a fire was used but the colour palette was not suitable. This was replaced with the 'Memories' image.
+#### Using  one image the Home page
+To reduce clutter and conflicting messages, only one image was used on the home page.
+#### Use of Popup Boxes with images and further progressively revealed contents
+Popup Boxes were intended to be used to reduce clutter and too much information on the Home Page.The  boxes would appear on hover over key contents signposts to further invite the user to explore deeper into the site. The contents of the popup box signpost would progressively reveal more  contents of that particular area of the site. It was decided that implementation of this feature was beyond the scope of this project for this minimum viable release.
+#### Colour Pallet UXD surface
+The chosen pallet did not have good accents. The accent colour 'cornsilk' rgb(255,248,220) was introduced at the design stage to provide an initial solution.
+#### Nav Bar elements don’t show Active Status
+For internal page navigation , without using java script, it is not possible to set the ‘active’ status of a link, since this is hard-coded into the html of each linked page.
+The work around was to not have an active status, but have an ‘onHover’ indicator , and rely on the user taking note of the clear headers to show where in the document they are.
+#### Responsive screen size reduction
+There were muliple issues relating to making the site responsive to different screen sizes. Some of these were:
+##### Images display 
+Images (particulaly the hero image) does not stay still as viewport reduces. Their position, aspect and dimensions woudld change in unwanted ways. This was resoved by careful use of relative and absolute units of measurment. 
+#### All images need a constant border radius 
+CSS targeting the img element provided a solution.
+#### Header offset for internal links
+Initially, the top of a linked section was obscured by the fixed nav bar. The source links in question were in the Lightfire aside Contents. This was resolved by applying an appropriate offset to the target equivalent to the height off the nav bar. This varies with screen size, so offsets were applied within media queries. The solution to this issue is credited to  Hrvoje Miljak/ Stack Overflow.
+    Hrvoje Miljak's  solution is as follows:
+    ```
+    html
+    <a class="anchor" ></a>
+
+    css 
+    a.anchor {
+        display: block;
+        position: relative;
+        top: -250px;
+        visibility: hidden;
+    }
+    ```
+After testing and correction, no issues were found.
+#### Font Change
+It was suggested to change the body front from 'EB Garamond' to 'Roboto'.
+#### Light a Fire Aside menu clarity
+Feedback from Sarah, Emily and Annabel suggested improved clarity for the Light a fire Aside menu. This was implemented by separating the elements a little
+#### Responsive Layout
+The majority of development issues arose here. The following
+issues were encountered and addressed:
+##### Hamburger Menu
+For very small screens, the navbar menu items would not fit.
+The solution in principle was provided by my mentor Martina Terlevic: to use 'hamburger menus'. The initial code for this solution was copied from https://codepen.io/alvarotrigo/pen/XWejzjR and then modified for this project.
+##### Navbar height for mid-range screens
+For screens in the tablet or mid-range screens, the text in the navbar would jump to two lines at the lower end of the range.
+This was resolved by having an upper and lower midrange category of media query with adjusted css in the lower category to double the height of the navbar to accommodate the 2 lines for menu text. All related section css dimensions and offsets in this category were adjusted.
+##### Responsible Fire Section
+Figure caption bleeds into Stay in touch section
+Class content-right-wrapper was adjusted to reduce height of image/figure.
+##### Phones in Landcape
+Formatting does not currently work. This is now an unresovled 'known issue'.
 
 
 
