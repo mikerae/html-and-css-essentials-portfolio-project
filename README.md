@@ -394,14 +394,16 @@ The following errors were revealed through Lighhouse testing.
 + 153 Value Error : display flexbox is not a display value : flexbox
     + Several errors of this kind were found.
     + replace flexbox with : flex block
-+ area-label="This link takes you to the section called Light a Fire"
++ There were multiple examples of the following error:
+    + The solution was to use aria-labelledby in the parent element.
+
+    area-label="This link takes you to the section called Light a Fire"
     + Error: Attribute area-label not allowed on element a at this point.
     From line 38, column 26; to line 38, column 113
 ```
     <a href="#tools" area-label="This link takes you to the Tools for Fire Lighting section">Tools<
 ```
-    There were multiple examples of this error.
-    The solution was to use aria-labelledby in the parent element.
+
 # Credits
 ## Content
 + Whilst the content is mine, the influence of Ray Mears is gratefully acknowledged.
