@@ -37,12 +37,12 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Community Gatherings Gallery
     + Bug Fixes
 + [Technologies Used](#technologies-used "Technologies Used")
-+ [Testing: And Related Bug Issues](#testing-and-related-bugs "Testing and Related Bugs")
++ [Testing and Resulting Issues](#testing-and-resulting-issues "Testing and Resulting Issues")
     + Human Testing
     + Validator Testing
     + Lighthouse
 
-+ [Unfixed Bugs](#unfixed-bugs "Unfixed Bugs")
++ [Known Issues](#known-issues "Known Issues")
 + [Development and Deployment](#development-and-deployment "Development and Deployment")
 + [Credits](#credits "Credits")
     - Content
@@ -251,14 +251,41 @@ Currently there are one or two bugs which have yet to be corrected. See the bug 
 + HTML5
 + CSS3
 
-## Testing and Related Bugs
+## Testing and Resulting Issues
 ### Human Testing
 #### Links
 + All external links were tested manually to verify that they were live and that they all opened in a new browser tab or window.
 No issues were found.
 + All internal links were tested manually.
-    + Initially, the top of a linked section was obscured by the fixed nav bar. This was resolved by applying an appropriate offset to the target equivalent to the height off the nav bar. This varies with screen size, so offsets were applied within media queries.
+    + Initially, the top of a linked section was obscured by the fixed nav bar. The source links in question were in the Lightfire aside Contents. This was resolved by applying an appropriate offset to the target equivalent to the height off the nav bar. This varies with screen size, so offsets were applied within media queries. The solution to this issue is credited to  Hrvoje Miljak/ Stack Overflow.
+    Hrvoje Miljak's  solution is as follows:
+    ```
+    html
+    <a class="anchor" ></a>
+
+    css 
+    a.anchor {
+        display: block;
+        position: relative;
+        top: -250px;
+        visibility: hidden;
+    }
+    ```
     + After testing and correction, no issues were found.
+#### Responsive Layout
++ Google Chrome Browser Developer Tools were used to develop and test various screen size layouts. The majority of development issues arose here. The following
+issues were encountered and addressed:
+##### Hamburger Menu
++ For very small screens, the navbar menu items would not fit.
+    The solution in priciple was provided by my mentor Martina Terlevic: to use 'hamburger menus'. The initial code for this solution was copied from https://codepen.io/alvarotrigo/pen/XWejzjR and then modified for this project.
+##### Navbar height for mid-range screens
++ For screens in the tablet or mid-range screens, the text in the navbar would jump to two lines at the lower end of the range.
++ This was resolved by having an upper and lower midrange category of media query with adjusted css in the lower category to double the height of the navbar to accomodate the 2 lines for menu text. All related section css dimensions and offsets in this category were adjusted.
++ The issue was saticfactorrily resovled.
+##### Font Change
++ It was suggested to change the body front from 'EB Garamond' to 'Roboto'.
+##### Light a Fire Aside menu clarity
++ Feedback from Sarah, Emily and Annabel suggested improved clarity for the Light a fire Aside menu. This was implemented by speparting the elements a little.
 
 
 
