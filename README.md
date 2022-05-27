@@ -41,9 +41,14 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Human Testing
     + Validator Testing
     + Lighthouse Accessibility Testing
-
 + [Known Issues](#known-issues "Known Issues")
 + [Development and Deployment](#development-and-deployment "Development and Deployment")
+    + IDE
+    + Version Control
+    + GitHub
+    + GitHub Pages
+    + External Resources
+    + Development Issues
 + [Credits](#credits "Credits")
     - Content
     - Media
@@ -130,9 +135,9 @@ The one image not overtly credited was the hero image in the Enjoy Fire Section:
 ![Enjoy Fire! Hero Image](/assets/images/hero.jpg)
 This photo (No. 344102) was taken by Oleksandr Pidvalnyi and downloaded from the Pexels website  and used under their creative commons licence.
 
-## Implemented Features
-### Navigation Bar and Footer
-#### Navigation Bar
+# Implemented Features
+## Navigation Bar and Footer
+### Navigation Bar
 A navigation bar is fixed to the top of every display screen. This has links to each of the site sections on the right of the navigation bar. The Logo on the left of the navigation bar is linked to the Enjoy Fire! section (home section).
 
 ![Navigation Bar](/assets/images/navbar.png)
@@ -144,13 +149,13 @@ For smaller screens where there was insufficient space to display the links, the
 ![Hamburger Menu: open](/assets/images/hamburgermenu-open.png)
 
 The footer is visible at the bottom of each of the two pages i.e. the main content page index.html and the form response page response.html. It contains external links to social media sites. The code for the footer was copied from the Code Institute 'Love Running' module and modified for this project.
-#### Footer
+### Footer
 
 ![Footer](/assets/images/footer.png)
 
 Each navigation and footer element is responsive, i.e. when hovered, the text changes colour to indicate a link.
 The style of the footer and navbar were made consistent using the class '.bar'.
-### Semantic HTML
+## Semantic HTML
 The following semantic html elements were used to facilitate engagement with the site for visually impaired users:
 + Sections: Each of the sections in the site are enclosed in this element. The section h2 element gives the section semantic content.
 + Nav: The elements enclosed in the navbar provide semantic content.
@@ -159,16 +164,16 @@ The following semantic html elements were used to facilitate engagement with the
 + Aside: The navigation content links in the Light a Fire section are enclosed in the aside element.
 + Figure: Almost all images are enclosed in the figure element.
 + Figcaption: Where the figure element was used, a figcaption element was used to describe the image.
-### Aria Provision
+## Aria Provision
 To assist visually impaired users, use of aria-labelledby and aria-label elements were used to semantically describe elements whos semantic meaning might otherwise be unclear.
-### Progressive Reveal
+## Progressive Reveal
 Each section partially reveals the header of the next section, inviting the user to scroll down and explore the site further.
-### Enjoy Fire Section
+## Enjoy Fire Section
 This 'home' or 'landing' section is the first thing a user will see when arriving at the site. It promotes a warm, welcoming, social feeling. The user is progressively drawn into the content of the site using four responsive 'call to action' buttons which briefly describe the contents of the section of the site. These buttons are linked to each of the site sections. At the bottom of the viewed area, the header of the next section is partially revealed.
 
 ![Enjoy Fire Progressive Reveal](/assets/images/enjoy-fire-progressive-reveal.png)
 
-### Light a Fire Section
+## Light a Fire Section
 Tips for lighting a fire are found within the artcle in this section.
 Further information is referenced using clearly marked external links.
 
@@ -186,7 +191,7 @@ The individual sections of this article are linked to call-to-action buttons in 
 
 ![Light a Fire Aside offset](/assets/images/lightfire-contents-links-header-offset.png)
 
-### Tools for Lighting Fire Section
+## Tools for Lighting Fire Section
 In this section, the user is introduced to three entry level fire-lighting tools. For each tool there is an image, a brief description and a call-to-action button inviting the user to buy a tool. The buttons are linked to the relevant areas in the external site for Ray Mears Bushcraft shop, where a fuller description of each tool can be found. If desired, the user may purchase each tool from the external shop. Whilst I have no affiliation to Ray Mears Bushcraft or his shop, I can recommend the site, the  shop and the tools.
 
 For larger screens, three tools are displayed side by side. For medium screens, 
@@ -198,14 +203,14 @@ two are displayed, and for small screens one tool is displayed.
 
 ![Tools for firelighting: Small Screens](/assets/images/tools-small.png)
 
-### Responsible Firelighting Section
+## Responsible Firelighting Section
 The main emotional thrust of this section is to invoke a sense that lighting fires responsibly is to be encouraged. This is achieved through the use of a suitable image and the familiar and helpful quotation from Chief Seattle to "Take only Memories, Leave only Footprints".
 Anyone how has tried to achieve this whilst enjoying the countryside will quickly realise that significant thought and effort is required for this to be accomplished. Anyone who has encountered the devastation caused by thoughtless behaviour will readily warm to Chief Seattle's sentiments.
 The three call-to-action buttons take the user to external sits where more in depth information may be found.
 
 ![Responsible Fire Lighting](/assets/images/responsible-firelighting.png)
 
-### Stay In Touch Section
+## Stay In Touch Section
 In this section the user is invited to join our community, initially by indicating an interest in staying in touch. There is an optional oportunty to communicate the user's bushcraft interests and sign up for a news letter and information about upcoming events.
 Basic contact information is required to be submitted. If a name input field is not filled in, or if a non-valid email address is entered the user is prompted to properly fill in these fields before the form will be submited.
 
@@ -226,113 +231,117 @@ For small screens, the user scrolls to the bottom of the section to submit the c
 
 ![Stay In Touch Lower](/assets/images/stay-in-touch-small2.png)
 
-
-### Response Page
+## Response Page
 This as a separate html document and simulates a response from a server upon receipt of data from the form on the Stay In Touch Section.
 The look and feel are identical to the Stay In Touch Section. All the navigation links and footer links are consistent with the rest of the site so that the user may intuitively choose to return to any part of the site.
 
 ![Response Page](/assets/images/response.png)
 
-## Future Development
-### Club Membership Area
+# Future Development
+## Club Membership Area
 Users can become members, and gain secure access to a members area in the site through a Django based authentication.
 Here, there is scope for blog posts and event advertising.
-### Camp Fire Cookout Events
+## Camp Fire Cookout Events
 Social Gatherings advertised on the site, and through the news letter will be held from time to time. Once there is server and database support, users may sign up for and attend these events. This was included in the scope analysis but excluded in the first release.
-### Training Meet-ups
+## Training Meet-ups
 Interest in particular skill development can be gauges through blog posts and signup forms.
 These events can then be scheduled and advertised, and members can sign up for them. This was included in the scope analysis but excluded in the first release.
-### Community Gatherings Gallery
+## Community Gatherings Gallery
 Members may post and display their photos of gatherings held. This was included in the scope analysis but excluded in the first release.
-### Fix Currently Known Issues
+## Fix Currently Known Issues
 Currently there are one or two bugs which have yet to be corrected. See the known issues section. These will be corrected in a future release.
 
-## Technologies Used
+# Technologies Used
 + HTML5
 + CSS3
 + IDE: The project was created in GitPod and demonstrates rudimentary competence in its use.
 + Version Control: the project used Git to generate a 'Commit History'
 + The project was pushed to GitHub sequentially.
 
-## Testing and Resulting Issues
-### Human Testing
-#### Links
+# Testing and Resulting Issues
+## Human Testing
+### Links
 + All external links were tested manually to verify that they were live and that they all opened in a new browser tab or window.
 No issues were found.
 + All internal links were tested manually.
 After development, no issues were found.
-#### Consultation and feedback
+### Consultation and feedback
 The site was reviewed by the four people and their feedback influenced the development of the project. I thank and gratefully acknowledge the feedback from the following people:
 + Martina Terlevic : Mentor Code Institute
 + Sarah
 + Emily
 + Annabel
-#### Google Chrome Browser Developer Tools: Responsive Layout
+### Google Chrome Browser Developer Tools: Responsive Layout
 Google Chrome Browser Developer Tools were used to develop and test various screen size layouts.
-### Validator Testing
-#### W3 HTML Validator
+## Validator Testing
+### W3 HTML Validator
 The HTML code was validated using the W3 HTML validator and passed with no issues.
 
 ![index.html Validation](/assets/images/w3-index-html-validator.png)
 
 ![response.html Validation](/assets/images/w3-response-html-validator.png)
 
-#### W3 CSS Validator
+### W3 CSS Validator
 The CSS code was validated using the W3 CSS validator and passed with no issues.
 
 ![CSS Validation](/assets/images/w3c-css-validator.png)
 
-#### Lighthouse Accessibility Validator
+### Lighthouse Accessibility Validator
 The site passed the Lighthouse accessibility validator in both Desktop and Mobile modes.
-##### Desktop Mode
+#### Desktop Mode
 
 ![Lighthouse index.html Desktop](/assets/images/lighthouse-index-desktop-validator.png)
 
 ![Lighthouse response.html Desktop](/assets/images/lighthouse.response-desktop-validator.png)
 
-##### Mobile Mode
+#### Mobile Mode
 
 ![Lighthouse index.html Mobile](/assets/images/lighthouse-index-mobile-validator.png)
 
 ![Lighthouse response.html Mobile](/assets/images/lighthouse-response-mobile-validator.png)
 
-## Known Issues
+# Known Issues
 + The layout for small screens (mobile phones) in landscape mode is not correctly formatted. There was not sufficient time to make this correction before the project deadline. The formatting is acceptable for small screens in portrait mode. It was therefore decided to proceed to release in this minimum viable version.
 
-## Development and Deployment
-### IDE
-The project was created in GitPod and demonstrates rudimentary competence in its use.
-### Version Control
+# Development and Deployment
+## IDE
+The project was created in GitPod.
+## Version Control
 The project used Git to generate a 'Commit History'.
-### GitHub
+## GitHub
 The project was pushed to GitHub sequentially.
-### GitHub Pages
+## GitHub Pages
 The project was deployed to the internet for viewing by the public using GitHub pages.
 A live version of the Enjoy Fire! website can be found here - https://mikerae.github.io/html-and-css-essentials-portfolio-project/
-
-### Development Issues
+## External Resources
+Throughout the development process, external resources were used. The following were frequently used:
++  MDN web docs html https://developer.mozilla.org/en-US/docs/Web/HTML
++ MDN web docs CSS https://developer.mozilla.org/en-US/docs/Web/CSS
++ Stack Overflow https://stackoverflow.com/
++ W3 Schools https://www.w3schools.com/
+## Development Issues
 A variety of developmental issues were encountered throughout this project, from design through to final deployment. Here are some of them.
-####UXD: Wire Framing
-#### Fire Image as header
+### UXD: Wire Framing
+### Fire Image as header
 A fire image used as a background in the navbar was too distracting. It was replaced by a solid colour.
-#### Hero image: Home Page
+### Hero image: Home Page
 Initially a hero image of a fire was used but the colour palette was not suitable. This was replaced with the 'Memories' image.
-#### Using  one image the Home page
+### Using  one image the Home page
 To reduce clutter and conflicting messages, only one image was used on the home page.
-#### Use of Popup Boxes with images and further progressively revealed contents
+### Use of Popup Boxes with images and further progressively revealed contents
 Popup Boxes were intended to be used to reduce clutter and too much information on the Home Page.The  boxes would appear on hover over key contents signposts to further invite the user to explore deeper into the site. The contents of the popup box signpost would progressively reveal more  contents of that particular area of the site. It was decided that implementation of this feature was beyond the scope of this project for this minimum viable release.
-#### Colour Pallet UXD surface
+### Colour Pallet UXD surface
 The chosen pallet did not have good accents. The accent colour 'cornsilk' rgb(255,248,220) was introduced at the design stage to provide an initial solution.
-#### Nav Bar elements don’t show Active Status
+### Nav Bar elements don’t show Active Status
 For internal page navigation , without using java script, it is not possible to set the ‘active’ status of a link, since this is hard-coded into the html of each linked page.
 The work around was to not have an active status, but have an ‘onHover’ indicator , and rely on the user taking note of the clear headers to show where in the document they are.
-#### Responsive screen size reduction
+### Responsive screen size reduction
 There were muliple issues relating to making the site responsive to different screen sizes. Some of these were:
-##### Images display 
+#### Images display 
 Images (particulaly the hero image) does not stay still as viewport reduces. Their position, aspect and dimensions woudld change in unwanted ways. This was resoved by careful use of relative and absolute units of measurment. 
-#### All images need a constant border radius 
+### All images need a constant border radius 
 CSS targeting the img element provided a solution.
-#### Header offset for internal links
+### Header offset for internal links
 Initially, the top of a linked section was obscured by the fixed nav bar. The source links in question were in the Lightfire aside Contents. This was resolved by applying an appropriate offset to the target equivalent to the height off the nav bar. This varies with screen size, so offsets were applied within media queries. The solution to this issue is credited to  Hrvoje Miljak/ Stack Overflow.
     Hrvoje Miljak's  solution is as follows:
     ```
@@ -348,69 +357,49 @@ Initially, the top of a linked section was obscured by the fixed nav bar. The so
     }
     ```
 After testing and correction, no issues were found.
-#### Font Change
+### Font Change
 It was suggested to change the body front from 'EB Garamond' to 'Roboto'.
-#### Light a Fire Aside menu clarity
+### Light a Fire Aside menu clarity
 Feedback from Sarah, Emily and Annabel suggested improved clarity for the Light a fire Aside menu. This was implemented by separating the elements a little
-#### Responsive Layout
+### Responsive Layout
 The majority of development issues arose here. The following
 issues were encountered and addressed:
-##### Hamburger Menu
+### Hamburger Menu
 For very small screens, the navbar menu items would not fit.
 The solution in principle was provided by my mentor Martina Terlevic: to use 'hamburger menus'. The initial code for this solution was copied from https://codepen.io/alvarotrigo/pen/XWejzjR and then modified for this project.
-##### Navbar height for mid-range screens
+### Navbar height for mid-range screens
 For screens in the tablet or mid-range screens, the text in the navbar would jump to two lines at the lower end of the range.
 This was resolved by having an upper and lower midrange category of media query with adjusted css in the lower category to double the height of the navbar to accommodate the 2 lines for menu text. All related section css dimensions and offsets in this category were adjusted.
-##### Responsible Fire Section
+### Responsible Fire Section
 Figure caption bleeds into Stay in touch section
 Class content-right-wrapper was adjusted to reduce height of image/figure.
-##### Phones in Landcape
+### Phones in Landcape
 Formatting does not currently work. This is now an unresovled 'known issue'.
-#### Validator Testing
-##### Lighthouse
+### Validator Testing
+#### Lighthouse
 The following errors were revealed through Lighhouse testing.
 + Background and foreground colors do not have a sufficient contrast ratio.
-    + The call-to-action class was change to remove this issue.
-+ Failing Elements
+    + The call-to-action colours were changed  to resolve this issue.
++ Failing Elements Example: several errors of this kind were found.
     h2.call-to-action
-    h2.call-to-action
-    h2.call-to-action
-    h2.call-to-action
-    button.tools.call-to-action
-    button.tools.call-to-action
-    button.tools.call-to-action
-    button.call-to-action
-    button.call-to-action
-    button.call-to-action
-    input#submit.items-group.button.call-to-action
     + html structure was changed to remove these errors.
 + Form elements do not have associated labels:
     + Failing Elements: input
     + Labels were given to inputs to resolve this issue.
-##### W3C CSS Validator
-+ 153		Value Error : display flexbox is not a display value : flexbox
-    + replace by : flex block
-+ 253	inline-flex	Value Error : display inline-flexbox is not a display value : inline-flexbox
-    + replace by : inline-flex block
-+ 261	contain	fit is not a object-fit value : fit
-    + replace by : fill
-+ 627	flex block	Value Error : display flexbox is not a display value : flexbox
-    + replace by : flex block
-
+#### W3C CSS Validator
++ 153 Value Error : display flexbox is not a display value : flexbox
+    + Several errors of this kind were found.
+    + replace flexbox with : flex block
 + area-label="This link takes you to the section called Light a Fire"
-
-+ Error: Attribute area-label not allowed on element a at this point.
+    + Error: Attribute area-label not allowed on element a at this point.
     From line 38, column 26; to line 38, column 113
 ```
     <a href="#tools" area-label="This link takes you to the Tools for Fire Lighting section">Tools<
-
+```
     There were multiple examples of this error.
     The solution was to use aria-labelledby in the parent element.
-```
-
-
-## Credits
-### Content
+# Credits
+## Content
 + Whilst the content is mine, the infuence of Ray Mears is gratefully aknowlegded.
 His Bushcraft sight can by found [here](https://www.raymears.com/).
 + Firewood Lay by [Connor Fitzgerald](https://www.cabinlife.com/articles/the-5-best-campfire-lays-and-how-to-build-them).
