@@ -370,6 +370,8 @@ The site passed the Lighthouse accessibility validator in both Desktop and Mobil
 # Known Issues           
 ##### [Back to Top](#contents "Contents")
 + The layout for small screens (mobile phones) in landscape mode is not correctly formatted. There was not sufficient time to make this correction before the project deadline. The formatting is acceptable for small screens in portrait mode. It was therefore decided to proceed to release in this minimum viable version.
++ In the Light a Fire aside contents menu: whilst the text is responsive, if the mouse hovers outside the text but inside the padding, the text is not responsive. This probably needs javascript to fix and is probably beyond the scope of this project.
+
 
 # Development and Deployment           
 ##### [Back to Top](#contents "Contents")
