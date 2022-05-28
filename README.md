@@ -85,6 +85,7 @@ Here is a summary of the needs and requirements of the stakeholders. Priority wa
 
 ## Structure           
 [Back to Top](#contents "Contents")
+
 This flow chart describes the information flow of the site.
 ![UXD Structure](/assets/images/uxd-structure.png)
 
@@ -305,6 +306,7 @@ No issues were found.
 After development, no issues were found.
 ### Consultation and feedback           
 [Back to Top](#contents "Contents")
+
 The site was reviewed by the four people and their feedback influenced the development of the project. I thank and gratefully acknowledge the feedback from the following people:
 + Martina Terlevic : Mentor Code Institute
 + Sarah
@@ -312,9 +314,11 @@ The site was reviewed by the four people and their feedback influenced the devel
 + Annabel
 ### Google Chrome Browser Developer Tools: Responsive Layout           
 [Back to Top](#contents "Contents")
+
 Google Chrome Browser Developer Tools were used to develop and test various screen size layouts.
 ### Amiresponsive Site           
 [Back to Top](#contents "Contents")
+
 The site amiresponsive https://ui.dev/amiresponsive was used to test the responsiveness of the site. The image at the top of this readme.md file was generated from this site and demonstrates that the site is indeed responsive.
 ## Validator Testing           
 [Back to Top](#contents "Contents")
@@ -352,48 +356,69 @@ The site passed the Lighthouse accessibility validator in both Desktop and Mobil
 
 # Development and Deployment           
 [Back to Top](#contents "Contents")
-## IDE
+## IDE         
+[Back to Top](#contents "Contents")
+
 The project was created in GitPod.
-## Version Control
+## Version Control         
+[Back to Top](#contents "Contents")
+
 The project used Git to generate a 'Commit History'.
-## GitHub
+## GitHub          
+[Back to Top](#contents "Contents")
+
 The project was pushed to GitHub sequentially.
-## GitHub Pages
+## GitHub Pages         
+[Back to Top](#contents "Contents")
+
 The project was deployed to the internet for viewing by the public using GitHub pages.
 A live version of the Enjoy Fire! website can be found here - https://mikerae.github.io/html-and-css-essentials-portfolio-project/
-## External Resources
+## External Resources        
+[Back to Top](#contents "Contents")
+
 Throughout the development process, external resources were used. The following were frequently used:
 +  MDN web docs html https://developer.mozilla.org/en-US/docs/Web/HTML
 + MDN web docs CSS https://developer.mozilla.org/en-US/docs/Web/CSS
 + Stack Overflow https://stackoverflow.com/
 + W3 Schools https://www.w3schools.com/
 ## Development Issues
+[Back to Top](#contents "Contents")
+
 A variety of developmental issues were encountered throughout this project, from design through to final deployment. Here are some of them.
 ### UXD: Wire Framing           
 [Back to Top](#contents "Contents")
 #### Fire Image as header
+[Back to Top](#contents "Contents")
+
 A fire image used as a background in the navbar was too distracting. It was replaced by a solid colour.
 #### Hero image: Home Page           
 [Back to Top](#contents "Contents")
+
 Initially a hero image of a fire was used but the colour palette was not suitable. This was replaced with the 'Memories' image.
 #### Using  one image in the the Enjoy Fire Section
 [Back to Top](#contents "Contents")
+
 To reduce clutter and conflicting messages, only one image was used on the home page.
 #### Use of Popup Boxes with images and further progressively revealed contents
 [Back to Top](#contents "Contents")
+
 Popup Boxes were intended to be used to reduce clutter and too much information on the Home Page.The  boxes would appear on hover over key contents signposts to further invite the user to explore deeper into the site. The contents of the popup box signpost would progressively reveal more  contents of that particular area of the site. It was decided that implementation of this feature was beyond the scope of this project for this minimum viable release.
 #### Colour Pallet UXD surface           
 [Back to Top](#contents "Contents")
+
 The chosen pallet did not have good accents. The accent colour 'cornsilk' rgb(255,248,220) was introduced at the design stage to provide an initial solution.
 ### Nav Bar elements don’t show Active Status
 [Back to Top](#contents "Contents")
+
 For internal page navigation , without using java script, it is not possible to set the ‘active’ status of a link, since this is hard-coded into the html of each linked page.
 The work around was to not have an active status, but have an ‘onHover’ indicator , and rely on the user taking note of the clear headers to show where in the document they are.
 ### All images need a constant border radius            
 [Back to Top](#contents "Contents")
+
 CSS targeting the img element provided a solution.
 ### Header offset for internal links
 [Back to Top](#contents "Contents")
+
 Initially, the top of a linked section was obscured by the fixed nav bar. The source links in question were in the Lightfire aside Contents. This was resolved by applying an appropriate offset to the target equivalent to the height off the nav bar. This varies with screen size, so offsets were applied within media queries. The solution to this issue is credited to  Hrvoje Miljak/ Stack Overflow.
     Hrvoje Miljak's  solution is as follows:
 ```
@@ -411,35 +436,45 @@ Initially, the top of a linked section was obscured by the fixed nav bar. The so
 After testing and correction, no issues were found.
 ### Font Change           
 [Back to Top](#contents "Contents")
+
 It was suggested to change the body front from 'EB Garamond' to 'Roboto'.
 ### Light a Fire Aside menu clarity
 [Back to Top](#contents "Contents")
+
 Feedback from Sarah, Emily and Annabel suggested improved clarity for the Light a fire Aside menu. This was implemented by separating the elements a little
 ### Responsive Layout
 [Back to Top](#contents "Contents")
+
 The majority of development issues arose here. The following
 issues were encountered and addressed:
 #### Images display            
 [Back to Top](#contents "Contents")
+
 Images (particularly the hero image) does not stay still as viewport reduces. Their position, aspect and dimensions would change in unwanted ways. This was resolved by careful use of relative and absolute units of measurement. 
 #### Hamburger Menu           
 [Back to Top](#contents "Contents")
+
 For very small screens, the navbar menu items would not fit.
 The solution in principle was provided by my mentor Martina Terlevic: to use 'hamburger menus'. The initial code for this solution was copied from https://codepen.io/alvarotrigo/pen/XWejzjR and then modified for this project.
 #### Navbar height for mid-range screens           
 [Back to Top](#contents "Contents")
+
 For screens in the tablet or mid-range screens, the text in the navbar would jump to two lines at the lower end of the range.
 This was resolved by having an upper and lower midrange category of media query with adjusted css in the lower category to double the height of the navbar to accommodate the 2 lines for menu text. All related section css dimensions and offsets in this category were adjusted.
 #### Responsible Fire Section           
 [Back to Top](#contents "Contents")
+
 Figure caption bleeds into Stay in touch section
 Class content-right-wrapper was adjusted to reduce height of image/figure.
 #### Phones in Landcape           
 [Back to Top](#contents "Contents")
+
 Formatting does not currently work. This is now an unresovled 'known issue'.
 ### Validator Testing           
 [Back to Top](#contents "Contents")
 #### Lighthouse
+[Back to Top](#contents "Contents")
+
 The following errors were revealed through Lighhouse testing.
 + Background and foreground colors do not have a sufficient contrast ratio.
     + The call-to-action colours were changed  to resolve this issue.
@@ -451,6 +486,7 @@ The following errors were revealed through Lighhouse testing.
     + Labels were given to inputs to resolve this issue.
 #### W3C CSS Validator           
 [Back to Top](#contents "Contents")
+
 + 153 Value Error : display flexbox is not a display value : flexbox
     + Several errors of this kind were found.
     + replace flexbox with : flex block
@@ -467,6 +503,8 @@ The following errors were revealed through Lighhouse testing.
 # Credits           
 [Back to Top](#contents "Contents")
 ## Content
+[Back to Top](#contents "Contents")
+
 + Whilst the content is mine, the influence of Ray Mears is gratefully acknowledged.
 His Bushcraft sight can by found [here](https://www.raymears.com/).
 + Firewood Lay by Connor Fitzgerald https://www.cabinlife.com/articles/the-5-best-campfire-lays-and-how-to-build-them).
@@ -494,6 +532,7 @@ His Bushcraft sight can by found [here](https://www.raymears.com/).
 + https://www.raymears.com/Bushcraft_Product/73-Bahco-Laplander-Folding-Saw/
 ## Code           
 [Back to Top](#contents "Contents")
+
 All copied and modified code is clearly marked with comments in both html and css files.
 + Footer code was copied and modified from the Love Running Project: Code Institute
 + Hamburger Menu code was copied and modified from https://codepen.io/alvarotrigo/pen/XWejzjR 
@@ -501,6 +540,7 @@ All copied and modified code is clearly marked with comments in both html and cs
 Solution from Hrvoje Miljak - Stack Overflow
 ## Feedback           
 [Back to Top](#contents "Contents")
+
 Feedback was gratefully received and played a significant part in the development of this project. Contributors were:
 + Martina Terlevic: Mentor - Code Institute
 + Sarah
