@@ -5,21 +5,21 @@
 A live version of the Enjoy Fire! website can be found here - https://mikerae.github.io/html-and-css-essentials-portfolio-project/
 
 ## Contents
-+ [User Experience Design - UXD](#user-experience-design "User Experience Design")
-    + [Strategy](#strategy "Strategy")
++ [User Experience Design - UXD](#user-experience-design-back-to-topcontents-"contents" "User Experience Design")
+    + [Strategy](#strategy-back-to-topcontents-"contents" "Strategy")
         + Stakeholder Stories
-    + [Scope](#scope "Scope")
+    + [Scope](#scope-back-to-topcontents-"contents" "Scope")
         + Needs and Requirements
-    + [Structure](#structure "Structure")
+    + [Structure](#structure-back-to-topcontents-"contents" "Structure")
         + Website Flow Diagram
-    + [Skeleton](#skeleton "Skeleton")
+    + [Skeleton](#skeleton-back-to-topcontents-"contents" "Skeleton")
         + Wire Frames
-    + [Surface](#surface "Surface")
+    + [Surface](#surface-back-to-topcontents-"contents" "Surface")
         + Colours
         + Typography
         + Icons
         + Images
-+ [Implemented Features](#implemented-features "Implemented Features")
++ [Implemented Features](#implemented-features-back-to-topcontents-"contents" "Implemented Features")
     + Navigation Bar and Footer
     + Semantic HTML
     + Aria Provision
@@ -30,33 +30,33 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
     + Responsible Firelighting Section
     + Stay In Touch Section
     + Response Page
-+ [Future Development](#future-development "Future Development")
++ [Future Development](#future-development-back-to-topcontents-"contents" "Future Development")
     + Club Membership Area
     + Camp Fire Cookout Events
     + Training Meet-ups
     + Community Gatherings Gallery
     + Bug Fixes
-+ [Technologies Used](#technologies-used "Technologies Used")
++ [Technologies Used](#technologies-used-back-to-topcontents-"contents" "Technologies Used")
     + HTML5
     + CSS3
     + GitPod and demonstrates rudimentary competence in its use.
     + Git
     + GitHub
-+ [Testing and Resulting Issues](#testing-and-resulting-issues "Testing and Resulting Issues")
++ [Testing and Resulting Issues](#testing-and-resulting-issues-back-to-topcontents-"contents" "Testing and Resulting Issues")
     + Human Testing
     + Developer Tools
     + Amiresponsive site
     + Validator Testing
     + Lighthouse Accessibility Testing
-+ [Known Issues](#known-issues "Known Issues")
-+ [Development and Deployment](#development-and-deployment "Development and Deployment")
++ [Known Issues](#known-issues-back-to-topcontents-"contents" "Known Issues")
++ [Development and Deployment](#development-and-deployment-back-to-topcontents-"contents" "Development and Deployment")
     + IDE
     + Version Control
     + GitHub
     + GitHub Pages
     + External Resources
     + Development Issues
-+ [Credits](#credits "Credits")
++ [Credits](#credits-back-to-topcontents-"contents" "Credits")
     - Content
     - Media
     - Code
@@ -64,7 +64,7 @@ A live version of the Enjoy Fire! website can be found here - https://mikerae.gi
 
 # User Experience Design           [Back to Top](#contents "Contents")
 
-## Strategy
+## Strategy           [Back to Top](#contents "Contents")
 ### Stakeholder Stories
 
 #### Users
@@ -76,36 +76,36 @@ The Site Owner would like to provide and promote responsible firelighting knowle
 #### Wider Members of the Community
 Members of the Wider Community would like to prevent damage to land and property, and to promote responsible enjoyment of the countryside.
 
-## Scope
+## Scope           [Back to Top](#contents "Contents")
 Here is a summary of the needs and requirements of the stakeholders. Priority was given to features which were implementable within the timeframe of the project, and using technology available. Some features were noted for future release.
 ![UXD Scope](/assets/images/uxd-scope.png)
 
-## Structure
+## Structure           [Back to Top](#contents "Contents")
 This flow chart describes the information flow of the site.
 ![UXD Structure](/assets/images/uxd-structure.png)
 
-## Skeleton
+## Skeleton           [Back to Top](#contents "Contents")
 Wireframes were created in the Balsamiq Wireframes app. These represent the project design intentions. The current build was modified by build experience, feedback from testers, my Mentor and the results of other testing procedures.
-### Enjoy Fire! Section (Home Section)
+### Enjoy Fire! Section (Home Section)           [Back to Top](#contents "Contents")
 ![Enjoy Fire! Section](/assets/images/enjoyfire-home-wireframe-uxd.png)
 This 'home' section strongly suggests the enjoyment of a camp fire with friends. It offers an easily accessible summery of the site whilst progressively revealing more content. Each of the four areas are linked to the navbar, and also to the associated text titles. The pop-out on-hover progressive reveal design was abandoned in this version for time and complexity reasons.
 In the build for smaller screens, the links in the nav bar were replaced by a 'hamburger menu'.
-### Light a Fire! Section
+### Light a Fire! Section           [Back to Top](#contents "Contents")
 ![Light a  Fire! Section](/assets/images/lightfire-wireframe-uxd.png)
 This section contains a scrolling article containing tips on Lighting a Fire. It also contains a contents sidebar which remains visible whist the article contents are scrolled. The contents items are linked to the relevant article sections. For smaller screens and tablets, the sidebar was made invisible.
-### Tools for Firelighting Section
+### Tools for Firelighting Section           [Back to Top](#contents "Contents")
 ![Tools for Firelighting](/assets/images/tools-wireframe-uxd.png)
 
 
 
 The three recommended tools are displayed with a short description. A button inviting the purchase of each tool opens an external link to the Ray Mears Bushcraft shop where the tools can be purchased.
-### Responsible Firelighting Section
+### Responsible Firelighting Section           [Back to Top](#contents "Contents")
 ![Responsible Firelighting](/assets/images/responsiblefire-wireframe-uxd.png)
 This section reinforces the need for and benefits of responsible firelighting using imagery and a popular quotation from Chief Seattle. It provides external links to further information.
-### Stay In Touch Section
+### Stay In Touch Section           [Back to Top](#contents "Contents")
 ![Stay in Touch](/assets/images/stayintouch-wireframe-uxd.png)
 An image celebrating the social benefits of camp-fire camaraderie compliments a form inviting the user to submit relevant information enabling them to stay in touch with the site owners. This is a dummy form since this is a static website. A server response is simulated by the 'Stay In Touch' button being linked to a second response.html page shown below.
-### Response Page
+### Response Page           [Back to Top](#contents "Contents")
 ![Response Page](/assets/images/response-wireframe-uxd.png)
 A simple response 'thank you' is offered to inform the user that their submission has been received. The user may return to any section of the site using the same navbar elements common throughout the site. 
 
