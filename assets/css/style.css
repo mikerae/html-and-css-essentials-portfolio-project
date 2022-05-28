@@ -486,7 +486,6 @@ a.tools {
     .section-content-outer-wrapper {
         display: grid;
         grid-template-columns: 1fr;
-        width: vw;
     }
 
     .section-content-right {
