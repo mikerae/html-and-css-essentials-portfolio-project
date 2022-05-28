@@ -296,18 +296,13 @@ div.items-group a, a.tools, #submit {
     color: cornsilk;
 }
 
-#lightfire-aside-inner a:hover {
-    text-decoration: none;
-    color: #493A48;
-}
-
-/*div.lf-aside-cta > a {
+div.lf-aside-cta > a {
     color: cornsilk;
 }
 
 div.lf-aside-cta:hover {
     color: #493A48;
-}*/
+}
 
 #aside-fire-img-fig  {
     margin-top: 20px;
