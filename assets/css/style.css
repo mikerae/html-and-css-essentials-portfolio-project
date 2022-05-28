@@ -295,6 +295,14 @@ div.items-group a, a.tools, #submit {
     text-decoration: none;
 }
 
+#extinguish {
+    color: cornsilk;
+}
+
+#extinguish:hover {
+    color: #493A48;
+}
+
 #aside-fire-img-fig  {
     margin-top: 20px;
 }
